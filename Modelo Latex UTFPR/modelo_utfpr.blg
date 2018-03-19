@@ -1,0 +1,89 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: modelo_utfpr.aux
+A level-1 auxiliary file: ./Capitulos/capitulo1.aux
+A level-1 auxiliary file: ./Capitulos/capitulo2.aux
+A level-1 auxiliary file: ./Capitulos/capitulo3.aux
+A level-1 auxiliary file: ./Capitulos/capitulo4.aux
+A level-1 auxiliary file: ./Capitulos/capitulo5.aux
+The style file: abnt-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abnt-options.bib
+Database file #2: ./Referencias/reflatex.bib
+Warning--I didn't find a database entry for "abnt-etal-list=99"
+Warning--I didn't find a database entry for "Souza2015"
+Warning--I didn't find a database entry for "abnTeX2009"
+Warning--I didn't find a database entry for "LaTeX2009"
+Warning--I didn't find a database entry for "BibTeX2009"
+Warning--I didn't find a database entry for "Lamport1986"
+Warning--I didn't find a database entry for "Buerger1989"
+Warning--I didn't find a database entry for "Kopka2003"
+Warning--I didn't find a database entry for "Mittelbach2004"
+Warning--I didn't find a database entry for "Goossens2007"
+Warning--I didn't find a database entry for "CTAN2009"
+Warning--I didn't find a database entry for "TeX-Br2009"
+Warning--I didn't find a database entry for "Wikibooks2009"
+Warning--I didn't find a database entry for "TeXnicCenter2009"
+Warning--I didn't find a database entry for "MiKTeX2009"
+Warning--I didn't find a database entry for "JabRef2009"
+Warning--I didn't find a database entry for "Mendeley2009"
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliografico abnt-alf.bst versao 1.52           |
+| Implementa a NBR6023, NBR10520 e NBR10523               |
+| Em caso de duvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 3 entries,
+            6523 wiz_defined-function locations,
+            1205 strings with 9799 characters,
+and the built_in function-call counts, 1536 in all, are:
+= -- 217
+> -- 2
+< -- 2
++ -- 45
+- -- 2
+* -- 51
+:= -- 217
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 9
+chr.to.int$ -- 9
+cite$ -- 0
+duplicate$ -- 15
+empty$ -- 173
+format.name$ -- 0
+if$ -- 407
+int.to.chr$ -- 2
+int.to.str$ -- 2
+missing$ -- 32
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 225
+stack$ -- 1
+substring$ -- 56
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 8
+(There were 17 warnings)
