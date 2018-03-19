@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  19 MAR 2018 00:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  19 MAR 2018 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -793,7 +793,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  5096 strings out of 492982
  68318 string characters out of 6136225
- 151914 words of memory out of 5000000
+ 151934 words of memory out of 5000000
  8410 multiletter control sequences out of 15000+600000
  51588 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -807,7 +807,7 @@ sfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a
 17/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2017/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (20 pages, 525419 bytes).
+Output written on modelo_utfpr.pdf (20 pages, 525507 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
