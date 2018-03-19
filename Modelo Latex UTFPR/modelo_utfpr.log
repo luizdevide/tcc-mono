@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  19 MAR 2018 00:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  19 MAR 2018 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,12 +624,12 @@ Overfull \hbox (6.14827pt too wide) in paragraph at lines 16--17
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
  (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
 ) [9]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
@@ -793,7 +793,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  5096 strings out of 492982
  68318 string characters out of 6136225
- 151934 words of memory out of 5000000
+ 150934 words of memory out of 5000000
  8410 multiletter control sequences out of 15000+600000
  51588 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -807,7 +807,7 @@ sfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a
 17/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2017/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (20 pages, 525507 bytes).
+Output written on modelo_utfpr.pdf (20 pages, 524020 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
