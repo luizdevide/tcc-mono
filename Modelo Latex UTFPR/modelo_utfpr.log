@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  19 MAR 2018 01:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  7 MAY 2018 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -555,153 +555,53 @@ Package Fancyhdr Warning: \footskip is too small (0.0pt):
 
  (./Capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
-
-LaTeX Warning: Citation `Souza2015' on page 8 undefined on input line 5.
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
-(d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: Citation `abnTeX2009' on page 8 undefined on input line 7.
-
-
-LaTeX Warning: Citation `LaTeX2009' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `BibTeX2009' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Lamport1986' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Buerger1989' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Kopka2003' on page 8 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Mittelbach2004' on page 8 undefined on input line 9.
-
-
-Overfull \hbox (35.3278pt too wide) in paragraph at lines 9--10
-\OT1/ptm/m/n/12 aconselha-se que o po-ten-cial usu[]ario ana-lise os co-man-dos
- exis-ten-tes no ar-quivo T[]X (\OT1/pcr/m/n/12 modelo[]*.tex\OT1/ptm/m/n/12 )
- []
-
-
-LaTeX Warning: Citation `LaTeX2009' on page 8 undefined on input line 11.
-
-
-LaTeX Warning: Citation `BibTeX2009' on page 8 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Lamport1986' on page 8 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Buerger1989' on page 8 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Kopka2003' on page 8 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Mittelbach2004' on page 8 undefined on input line 11.
-
-
-Overfull \hbox (35.3278pt too wide) in paragraph at lines 11--12
-\OT1/ptm/m/n/12 aconselha-se que o po-ten-cial usu[]ario ana-lise os co-man-dos
- exis-ten-tes no ar-quivo T[]X (\OT1/pcr/m/n/12 modelo[]*.tex\OT1/ptm/m/n/12 )
- []
-
-
-Overfull \hbox (6.14827pt too wide) in paragraph at lines 16--17
-[]\OT1/ptm/m/n/12 Uma das prin-ci-pais van-ta-gens do uso do es-tilo de formata
-[][]ao \OT1/pcr/m/n/12 normas-utf-tex.cls
- []
-
 [8
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
- (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-) [9]
+
+LaTeX Warning: Citation `mec' on page 9 undefined on input line 39.
+
+[9] [10]) [11]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
-
-(./Capitulos/capitulo2.tex
+ (./Capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 7.
-(d:/texlive/2017/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+[12
 
 
-LaTeX Warning: Reference `chap:desenv' on page 10 undefined on input line 7.
+
+]
+Overfull \hbox (6.3775pt too wide) in paragraph at lines 24--25
+[]\OT1/ptm/m/n/12 Semelhante a apli-ca-ti-vos: Ne-cess[]ario que se pare[]a com
+ apli-ca-ti-vos na-ti-vos, com intera[][]oes
+ []
 
 
-LaTeX Warning: Citation `Goossens2007' on page 10 undefined on input line 11.
+Overfull \hbox (6.70357pt too wide) in paragraph at lines 39--40
+\OT1/ptm/m/n/12 sen-vol-vi-mento da aplica[][]ao. Come[]ando pela res-pon-si-vi
+-dade, pois em uma aplica[][]ao SPA(Single
+ []
 
-<./Figuras/dummy.png, id=44, 301.125pt x 301.125pt>
-File: ./Figuras/dummy.png Graphic file (type png)
-<use ./Figuras/dummy.png>
-Package pdftex.def Info: ./Figuras/dummy.png  used on input line 18.
-(pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
+[13]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
-
-LaTeX Warning: Citation `abnTeX2009' on page 10 undefined on input line 20.
-
-<./Figuras/Logo.jpg, id=45, 529.4982pt x 193.6836pt>
-File: ./Figuras/Logo.jpg Graphic file (type jpg)
-<use ./Figuras/Logo.jpg>
-Package pdftex.def Info: ./Figuras/Logo.jpg  used on input line 28.
-(pdftex.def)             Requested size: 182.09486pt x 66.60811pt.
-
-LaTeX Warning: Citation `abnTeX2009' on page 10 undefined on input line 30.
-
-[10
-
-
-
- <./Figuras/dummy.png>]
-
-LaTeX Warning: Citation `Lamport1986' on page 11 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Buerger1989' on page 11 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Kopka2003' on page 11 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Mittelbach2004' on page 11 undefined on input line 37.
-
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
-
-LaTeX Warning: Citation `abnTeX2009' on page 11 undefined on input line 72.
-
-[11 <./Figuras/Logo.jpg>]) [12]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+<./figuras/pwa.png, id=54, 479.7925pt x 552.0625pt>
+File: ./figuras/pwa.png Graphic file (type png)
+<use ./figuras/pwa.png>
+Package pdftex.def Info: ./figuras/pwa.png  used on input line 58.
+(pdftex.def)             Requested size: 296.7508pt x 341.43306pt.
+ [14 <./figuras/pwa.png>]) [15]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
  (./Capitulos/capitulo3.tex
 Cap\'{\i }tulo 3.
-) [13
+) [16
 
 
 
@@ -710,7 +610,7 @@ Cap\'{\i }tulo 3.
 
  (./Capitulos/capitulo4.tex
 Cap\'{\i }tulo 4.
-) [14
+) [17
 
 
 
@@ -719,14 +619,18 @@ Cap\'{\i }tulo 4.
 
  (./Capitulos/capitulo5.tex
 Cap\'{\i }tulo 5.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
+(d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 
-LaTeX Warning: Citation `CTAN2009' on page 15 undefined on input line 5.
+LaTeX Warning: Citation `CTAN2009' on page 18 undefined on input line 5.
 
 
-LaTeX Warning: Citation `TeX-Br2009' on page 15 undefined on input line 5.
+LaTeX Warning: Citation `TeX-Br2009' on page 18 undefined on input line 5.
 
 
-LaTeX Warning: Citation `Wikibooks2009' on page 15 undefined on input line 5.
+LaTeX Warning: Citation `Wikibooks2009' on page 18 undefined on input line 5.
 
 
 Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
@@ -735,11 +639,11 @@ uado []as Nor-mas para Elabora[][]ao
  []
 
 
-LaTeX Warning: Citation `TeXnicCenter2009' on page 15 undefined on input line 7
+LaTeX Warning: Citation `TeXnicCenter2009' on page 18 undefined on input line 7
 .
 
 
-LaTeX Warning: Citation `MiKTeX2009' on page 15 undefined on input line 7.
+LaTeX Warning: Citation `MiKTeX2009' on page 18 undefined on input line 7.
 
 
 Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
@@ -748,69 +652,98 @@ omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
  []
 
 
-LaTeX Warning: Citation `JabRef2009' on page 15 undefined on input line 9.
+LaTeX Warning: Citation `JabRef2009' on page 18 undefined on input line 9.
 
 
-LaTeX Warning: Citation `Mendeley2009' on page 15 undefined on input line 9.
+LaTeX Warning: Citation `Mendeley2009' on page 18 undefined on input line 9.
 
-) [15
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
+(d:/texlive/2017/texmf-dist/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+) [18
 
-
-
-] (./modelo_utfpr.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-) [16
 
 
 ]
+(./modelo_utfpr.bbl) [19
+
+
+]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 \chapter{Nome do Ap\^endice A}
+                                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Apendice A.
-[17
+[20
 
 ]
 Apendice B.
-[18
+[21
 
 ]
 Anexo A.
 
 AED: lastpage setting LastPage
-[19
+[22
 
 ]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
+
+! LaTeX Error: \begin{thebibliography} on input line 3 ended by \end{document}.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 (./modelo_utfpr.aux (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
 (./Capitulos/capitulo3.aux) (./Capitulos/capitulo4.aux)
 (./Capitulos/capitulo5.aux))
 
 LaTeX Warning: There were undefined references.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 3 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5096 strings out of 492982
- 68318 string characters out of 6136225
- 150934 words of memory out of 5000000
- 8410 multiletter control sequences out of 15000+600000
- 51588 words of font info for 117 fonts, out of 8000000 for 9000
+ 5015 strings out of 492982
+ 67163 string characters out of 6136225
+ 151889 words of memory out of 5000000
+ 8350 multiletter control sequences out of 15000+600000
+ 36907 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,45p,926b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a
-.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/20
-17/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2017/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (20 pages, 524020 bytes).
+ 41i,17n,45p,696b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017
+/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2017/texmf-dist/font
+s/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb>
+Output written on modelo_utfpr.pdf (23 pages, 399000 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

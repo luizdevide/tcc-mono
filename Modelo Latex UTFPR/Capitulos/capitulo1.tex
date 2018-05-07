@@ -1,38 +1,67 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CAPÍTULO 1
 \chapter{contexto}  
+Em 1990, Tim Berners-Lee desenvolveu o primeiro navegador web da história, o WorldWideWeb. Feito que no final desse mesmo ano se uniu a outras criações de Lee, como o servidor e as primeiras páginas web, marcando assim a história como o primeiro serviço publicado na internet. 
 
-Durante as últimas décadas .... . Dessa forma, .... . Por isso, ....  \cite{Souza2015}. 
+Nos anos seguintes, com o anúncio feito pela CERN, em 1993, de que a internet seria liberada para todos, foi o estopim para que o mundo visse todo o potencial tecnológico que ali existia. Dessa maneira novas tecnologias passaram a serem criadas para facilitar todo esse processo, sendo as principais delas o CSS, em 1996, e o JavaScript em 1995. 
 
-O presente documento é um exemplo de uso do estilo de formatação \LaTeX\ elaborado para atender às Normas para Elaboração de Trabalhos Acadêmicos da UTFPR. O estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls} tem por base o pacote \textsc{abn}\TeX~-- cuja leitura da documentação \cite{abnTeX2009} é fortemente sugerida~-- e o estilo de formatação \LaTeX\ da UFPR.
+Com a união do HTML, CSS e JavaScript temos a base dos sistemas Webs usados até hoje, porém de formas mais avançadas. 
 
-Para melhor entendimento do uso do estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls}, aconselha-se que o potencial usu\'ario analise os comandos existentes no arquivo \TeX\ ({\ttfamily modelo\_*.tex}) e os resultados obtidos no arquivo PDF ({\ttfamily modelo\_*.pdf}) depois do processamento pelo software \LaTeX\ + \textsc{Bib}\TeX~\cite{LaTeX2009,BibTeX2009}. Recomenda-se a consulta ao material de refer\^encia do software para a sua correta utiliza\c{c}\~ao~\cite{Lamport1986,Buerger1989,Kopka2003,Mittelbach2004}.
+Diferente de outras linguagens, o HTML é uma linguagem de marcação. Isso quer dizer que com ela podemos marcar elementos de nosso código, para assim definir o que deve ser mostrado na página. Porém a forma que os elementos são mostrados na página é de uma maneira muito simples, então para isso temos o CSS para nos auxiliar.
 
-Para melhor entendimento do uso do estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls}, aconselha-se que o potencial usu\'ario analise os comandos existentes no arquivo \TeX\ ({\ttfamily modelo\_*.tex}) e os resultados obtidos no arquivo PDF ({\ttfamily modelo\_*.pdf}) depois do processamento pelo software \LaTeX\ + \textsc{Bib}\TeX~\cite{LaTeX2009,BibTeX2009}. Recomenda-se a consulta ao material de refer\^encia do software para a sua correta utiliza\c{c}\~ao~\cite{Lamport1986,Buerger1989,Kopka2003,Mittelbach2004}.
+O CSS é formado por um conjunto de regras formando uma folha de estilo que irá alterar a apresentação do nosso HTML. Porém temos algumas limitações usando apenas o CSS, como a falta de interação com o usuário e incapacibilidade de se fazer alterações dinâmicas.
+
+Como o próprio nome diz, JavaScript é uma linguagem baseada em scripts, sendo utilizada pelo lado do cliente. Isso se deve ao fato de ser executada diretamente no browser, não tendo acesso ao servidor. Com ela podemos fazer alterações dinâmicas na nossa página, validar campos entre outras funcionalidades.
 
 
-\section{Motivação}
+\section{Delimitação do Tema}
+Com a facilidade do desenvolvimento o web, começamos a ver seu uso sendo implementado em qualquer tipo de objeto utilizado, fenômeno conhecido como a internet das coisas. Ideia que apoia o fato de ser possível acessar a internet através de qualquer dispositivo. Dessa forma o principal alvo foram os telefones celulares.
 
-Uma das principais vantagens do uso do estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls} para \LaTeX\ \'e a formata\c{c}\~ao \textit{autom\'atica} dos elementos que comp\~oem um documento acad\^emico, tais como capa, folha de rosto, dedicat\'oria, agradecimentos, ep\'igrafe, resumo, abstract, listas de figuras, tabelas, siglas e s\'imbolos, sum\'ario, cap\'itulos, refer\^encias, etc. Outras grandes vantagens do uso do \LaTeX\ para formata\c{c}\~ao de documentos acad\^emicos dizem respeito \`a facilidade de gerenciamento de refer\^encias cruzadas e bibliogr\'aficas, al\'em da formata\c{c}\~ao~-- inclusive de equa\c{c}\~oes  matem\'aticas~-- correta e esteticamente perfeita.
+Esse foco nos aparelhos móveis acabou acarretando na criação dos smartphones, aparelhos multifuncionais. E para melhorá los ainda mais, era necessário o desenvolvimento de novas aplicações exclusivas para os mobiles. 
+
+Atualmente existem dois sistemas operacionais mais utilizados e mobiles, o Android e o iOS, exclusivo da Apple. Nos dois é possível através de uma loja virtual, fazer os downloads dos apps mais recentes. Aplicativos esses que geralmente são criados de forma nativa, isso quer dizer que são desenvolvidos na linguagem nativa do sistema operacional. 	
+
+O desenvolvimento nativo é uma técnica muito utilizada, porém com grandes desvantagens em relação, por exemplo, ao desenvolvimento híbrido. Pois no nativo será necessário uma equipe para o desenvolvimento do app para apenas um sistema operacional, tornando assim o desenvolvimento muito custoso. 
+
+Por esses motivos uma nova tecnologia vem criando muita força no mercado. Esse novo tipo de desenvolvimento web é conhecido como PWA, ou Progressive Web Apps. Onde com essa tecnologia é possível desenvolver a sua aplicação web, fazendo a funcionar tanto como um site, e como um aplicativo mobile.
+
+Tecnologia, essa conhecida por ter algumas características obrigatórias:
+\begin{enumerate}
+\item Progressivo: Deve funcionar em qualquer navegador utilizado pelo usuário.
+\item Responsivo: Deve se adequar aos formatos da tela sempre. Mesmo quando aberto em um desktop, celular ou tablet.
+\item Offline: O sistema deve estar sempre disponível, mesmo que de forma parcial.
+\item Instalável: Ao abrir a página web no navegador do celular, é preciso mostrar uma mensagem de instalação do aplicativo para o usuário.
+\end{enumerate}
+Ao se cumprir todos esses requisitos, temos uma aplicação web, que pode ser vista como um site em seu navegador, ou pode ser baixada e utilizada como um aplicativo em seu dispositivo móvel.
+
+
+\section{Problema}
+Em 2016 haviam aproximadamente 8.05 milhões de estudantes matriculados em cursos ofertados por 2.407 instituições de ensino superior. Número que se comparado ao ano de 2006, mostra um aumento de 62.8\% da taxa de matrículas \cite{mec}.
+
+Esse grande número de universitários, em relação ao pouco número de instituições nos mostra que esses ambientes precisam ser muito grande, para comportar a alta quantidade de estudantes.
+
+Portanto, o estudante acaba por não ter informação de todos os eventos que estão acontecendo ao seu redor, pelo simples motivo de não conhecer aquele seu ambiente completamente.  
+
+Dessa forma, a aplicação visa dar a oportunidade, para o nosso principal usuário, o estudante universitário, de saber de tudo o que está acontecendo ao seu redor de uma forma bem simples. Acessando o site, ou usando o aplicativo, ele poderá saber em tempo real se há algum evento em sua volta.
+
+Além do fato de poder descobrir novos eventos, será possível realizar a criação deles também. Atraindo mais pessoas para uma área de seu interesse. Como por exemplo, a apresentação de um TCC, onde pessoas que se interessam por aquele assunto poderão saber que ela está acontecendo. Algo que geralmente não é muito divulgado.
+
 
 
 \section{Objetivos}
 
 \subsection{Objetivo Geral}
-
+O principal objetivo desse trabalho será o desenvolvimento de um site, usando PWA (Progressive Web App) para isso. Esse site poderá ser usado como um aplicativo em dispositivos móveis. Sendo sua principal função, a de permitir que o usuário tenha conhecimento de eventos que estão acontecendo ao seu redor. Sua primeira versão será funcional apenas no campus de Cornélio Procópio, da Universidade Tecnológica Federal do Paraná. 
 
 \subsection{Objetivos Espec\'ificos}
 \begin{enumerate}
-\item Item 1
-\item Item 2
+\item Disponibilizar o mapa, através do Google Maps,  com a localização atual do usuário, mostrando assim os eventos ao seu redor. Esse mapa, assim como todo sistema, estará em apenas uma página.
+\item Ter o seu desenvolvimento em PWA irá garantir uma maior flexibilidade para o usuário. Tendo em vista que o foco do projeto é ajudar os estudantes a terem informações de todos os eventos acontecendo no interior do campus. Portanto o acesso poderá ser feito através de um notebook, ser baixado como um aplicativo, e até ter elementos carregados de forma offline.
+\item O layout da aplicação deverá ser idêntico em todas as plataformas utilizadas, se comportando sempre da mesma forma.
 \end{enumerate}
 
 
-\begin{itemize}
-	\item Obter documentos acad\^emicos automaticamente formatados com corre\c{c}\~ao e perfei\c{c}\~ao est\'etica.
-	\item Desonerar autores da tediosa tarefa de formatar documentos acad\^emicos, permitindo sua concentra\c{c}\~ao no conte\'udo do mesmo.
-	\item Desonerar orientadores e examinadores da tediosa tarefa de conferir a formata\c{c}\~ao de documentos acad\^emicos, permitindo sua concentra\c{c}\~ao no conte\'udo do mesmo.
-\end{itemize}
+
 
 \section{Organização do Texto}
 

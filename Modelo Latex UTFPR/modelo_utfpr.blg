@@ -18,15 +18,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: ./Referencias/reflatex.bib
 Warning--I didn't find a database entry for "abnt-etal-list=99"
-Warning--I didn't find a database entry for "Souza2015"
+Warning--I didn't find a database entry for "Goossens2007"
 Warning--I didn't find a database entry for "abnTeX2009"
-Warning--I didn't find a database entry for "LaTeX2009"
-Warning--I didn't find a database entry for "BibTeX2009"
 Warning--I didn't find a database entry for "Lamport1986"
 Warning--I didn't find a database entry for "Buerger1989"
 Warning--I didn't find a database entry for "Kopka2003"
 Warning--I didn't find a database entry for "Mittelbach2004"
-Warning--I didn't find a database entry for "Goossens2007"
 Warning--I didn't find a database entry for "CTAN2009"
 Warning--I didn't find a database entry for "TeX-Br2009"
 Warning--I didn't find a database entry for "Wikibooks2009"
@@ -45,45 +42,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 3 entries,
+You've used 4 entries,
             6523 wiz_defined-function locations,
-            1205 strings with 9799 characters,
-and the built_in function-call counts, 1536 in all, are:
-= -- 217
-> -- 2
+            1205 strings with 9953 characters,
+and the built_in function-call counts, 2132 in all, are:
+= -- 264
+> -- 17
 < -- 2
-+ -- 45
-- -- 2
-* -- 51
-:= -- 217
-add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 9
-chr.to.int$ -- 9
-cite$ -- 0
-duplicate$ -- 15
-empty$ -- 173
-format.name$ -- 0
-if$ -- 407
++ -- 50
+- -- 7
+* -- 89
+:= -- 304
+add.period$ -- 5
+call.type$ -- 6
+change.case$ -- 15
+chr.to.int$ -- 10
+cite$ -- 1
+duplicate$ -- 41
+empty$ -- 231
+format.name$ -- 23
+if$ -- 553
 int.to.chr$ -- 2
 int.to.str$ -- 2
-missing$ -- 32
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 34
+missing$ -- 47
+newline$ -- 13
+num.names$ -- 5
+pop$ -- 52
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 12
 quote$ -- 0
-skip$ -- 225
+skip$ -- 262
 stack$ -- 1
-substring$ -- 56
-swap$ -- 2
+substring$ -- 74
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
+while$ -- 8
 width$ -- 0
-write$ -- 8
-(There were 17 warnings)
+write$ -- 23
+(There were 14 warnings)
