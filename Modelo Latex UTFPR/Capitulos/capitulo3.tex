@@ -1,5 +1,47 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CAPÍTULO 3
-\chapter{DESENVOLVIMENTO}  
+\chapter{Proposta}  
+No desenvolvimento web pode ser separado em duas partes. A primeira parte sendo a do front-end, e a segunda do back-end. Pode se dizer que o front-end é a parte na qual o usuário tem acesso, a interface de seu sistema, e suas funções. Já o back-end é o que controla as regras de negócio do sistema e o banco de dados. Por esse motivo existem tecnologias distintas para cada uma dessas partes.
 
+\section{Tecnologias e Ferramentas}
+Portanto, iremos utilizar HTML5, CSS3 e JavaScript para o desenvolvimento da aplicação.
 
+O HTML5 será utilizado na construção da página. É com ele que definimos a estrutura do site, através de seu sistema de tags. Dessa forma teremos a base de nossa página, porém de forma totalmente crua, sem nenhum estilização. 
+
+É nesse momento em que o CSS3 será utilizado. Ele será o responsável pela estilização de nossa página. Pois através dele podemos alterar fontes, definir cores, e alterar a posição de cada elemento de nossa página. Porém o CSS3 para por aí, abrindo espaço para o uso de JavaScript. 
+
+FIGURAS 10 e 11
+
+\begin{figure}[!htb]
+	\centering
+	%begin{measuredfigure}
+	\caption{Exemplo de uma pagina apenas com o HTML5, sem o uso do CSS3}
+	\includegraphics[height=8cm]{./figuras/semCSS.png} \quad
+	\fonte{Autoria Propria}
+	%end{measuredfigure}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	%begin{measuredfigure}
+	\caption{Exemplo de uma pagina apenas com o HTML5 e CSS3}
+	\includegraphics[height=8cm]{./figuras/comCSS.png} \quad
+	\fonte{Autoria Propria}
+	%end{measuredfigure}
+\end{figure}
+
+O JavaScript nos permite implementar funcionalidades em nossa página web. Um exemplo disso será o de realizar o rolamento da página ao se clicar em uma opção do menu, ou de realizar um efeito ao se abrir o próprio menu.
+
+\section{Desenvolvimento}
+
+O primeiro passo do desenvolvimento será o de construir o front-end da aplicação. Nessa fase teremos a interface do sistema. Por se tratar de um SPA, a sua construção será bem minimalista. Contendo apenas um campo de busca, um menu de opções, um botão para adicionar um evento, tudo isso sobre o layout do mapa. Esse mapa será formado utilizando a API do Google Maps.
+
+IMAGEM DE UM PROTÓTIPO DE TELA
+
+Com o campo de busca será possível procurar endereços, tendo acesso a eventos próximos a ele. Já no menu teremos algumas informações do usuários, locais recentes e a opção de criar um evento. Outro modo de se criar o evento e clicando no botão rápido existente.
+
+O mapa a ser usado irá sempre acompanhar o usuário, mostrando todos os eventos ao seu redor. Esse mapa será no formato 2D, e irá ocupar a tela inteira. A localização do usuário será captada através de seu GPS, que compartilhará essa informação com a API do Google Maps, mostrando assim a sua localização. 
+
+Quando os eventos disponíveis aparecem no mapa, será possível selecionar ele. Isso mostrará os dados de quem criou o evento, em que horário ele será realizado, e em que local ou sala ele irá ocorrer. Essas mesmas informações serão necessárias quando o usuário criar o seu evento.
+
+Na etapa inicial do projeto, iremos cobrir apenas o campus de Cornélio Procópio da Universidade Tecnológica Federal do Paraná.

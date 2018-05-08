@@ -30,14 +30,14 @@
 \instituicao{Universidade Tecnológica Federal do Paraná} % nome da instituicao
 \unidade{Câmpus Cornélio Procópio}
 \programa{Engenharia de Software} % nome do curso
-\area{...} % [Engenharia Biom\'edica] ou [Inform\'atica Industrial] ou [Telem\'atica]
+\area{Engenharia de Software} % [Engenharia Biom\'edica] ou [Inform\'atica Industrial] ou [Telem\'atica]
 \coordenacao{Programa de Graduação em Engenharia de Software} %[Ex: Programa de Graduação em Engenharia de Computação] ou [Programa de Graduação em Engenharia de Software]
 \diretoria{Diretoria de Graduação e Educação Profissional}
 \departamento{Departamento de Computação}
 
 \documento{Trabalho de Conclusão de Curso} % [Disserta\c{c}\~ao] ou [Tese]
 \nivel{Graduação} % [Graduação] ou [Mestrado] ou [Doutorado]
-\titulacao{...} % [Tecnólogo] ou [Bacharel] ou [Engenheiro] ou [Mestre] ou [Doutor]
+\titulacao{Engenheiro} % [Tecnólogo] ou [Bacharel] ou [Engenheiro] ou [Mestre] ou [Doutor]
 
 \titulo{Aplicação PWA} % titulo do trabalho em portugues
 \title{Title in English} % titulo do trabalho em ingles
@@ -45,10 +45,9 @@
 \autor{Luiz Guilherme Devide Spirito} % autor do trabalho
 \cita{DEVIDE SPIRITO, Luiz Guilherme} % sobrenome (maiusculas), nome do autor do trabalho
 
-\palavraschave{Palavra-chave 1, Palavra-chave 2, XXXXXXX, teste de software} % palavras-chave do trabalho
-\keywords{Keyword 1, Keyword 2, ...} % palavras-chave do trabalho em ingles
 
-\comentario{\UTFPRdocumentodata\ apresentada ... da \ABNTinstituicaodata\ como requisito parcial para obten\c{c}\~ao do grau de ... em ....}
+
+\comentario{\UTFPRdocumentodata\ apresentada na \ABNTinstituicaodata\ como requisito parcial para obten\c{c}\~ao do grau de bacharel em Engenharia de Software}
 
 \orientador{Diogo Cezar Teixeira Batista} % nome do orientador do trabalho
 %\orientador[Orientadora:]{Nome da Orientadora} % <- no caso de orientadora, usar esta sintaxe
@@ -71,7 +70,6 @@
 
 %---------- Inicio do Documento ----------
 \begin{document}
-
 
 \capa % geracao automatica da capa (OBRIGATÓRIO)
 \folhaderosto % geracao automatica da folha de rosto (OBRIGATÓRIO)
@@ -102,77 +100,16 @@ Texto do resumo (m\'aximo de 500 palavras).
 Abstract ... (maximum of 500 words).
 \end{abstract}
 
-% listas (opcionais, mas recomenda-se a partir de 5 elementos)
-\listadefiguras % geracao automatica da lista de figuras
-\listadetabelas % geracao automatica da lista de tabelas
-%\listadesiglas % geracao automatica da lista de siglas
-%\listadesimbolos % geracao automatica da lista de simbolos
-
 % sumario (OBRIGATÓRIO)
 \sumario % geracao automatica do sumario
-
-%---------- Inicio do Texto ----------
-% recomenda-se a escrita de cada capitulo em um arquivo texto separado (exemplo: intro.tex, fund.tex, exper.tex, concl.tex, etc.) e a posterior inclusao dos mesmos no mestre do documento utilizando o comando \input{}, da seguinte forma:
-%\input{intro.tex}
-%\input{fund.tex}
-%\input{exper.tex}
-%\input{concl.tex}
-
-%---------- Introdução 
+ 
 \include{./Capitulos/capitulo1} 
-%---------- Fundamentação 
 \include{./Capitulos/capitulo2} 
-
 \include{./Capitulos/capitulo3}
-%---------- Resultados
-\include{./Capitulos/capitulo4} 
-%---------- Conclusão 
-\include{./Capitulos/capitulo5} 
-
 
 %---------- Referencias ----------
-\bibliography{./Referencias/reflatex} % % geracao automatica das referencias a partir do arquivo reflatex.bib
 
-%---------- Apendices (opcionais) ----------
-\apendice
-\chapter{Nome do Ap\^endice A}
+\bibliography{./Referencias/reflatex}% % geracao automatica das referencias a partir do arquivo reflatex.bib
 
-Use o comando {\ttfamily \textbackslash apendice} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de ap\^en-dices.
-
-%\apendice
-\chapter{Nome do Ap\^endice B}
-
-Use o comando {\ttfamily \textbackslash apendice} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de ap\^en-dices.
-
-% ---------- Anexos (opcionais) ----------
-\anexo
-\chapter{Nome do Anexo}
-Use o comando {\ttfamily \textbackslash anexo} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de anexos.
-
-% --------- Lista de siglas --------
-%\textbf{* Observa\c{c}\~oes:} a lista de siglas nao realiza a ordenacao das siglas em ordem alfabetica
-% Em breve isso sera implementado, enquanto isso:
-%\textbf{Sugest\~ao:} crie outro arquivo .tex para siglas e utilize o comando \sigla{sigla}{descri\c{c}\~ao}.
-%Para incluir este arquivo no final do arquivo, utilize o comando \input{arquivo.tex}.
-%Assim, Todas as siglas serao geradas na ultima pagina. Entao, devera excluir a ultima pagina da versao final do arquivo
-% PDF do seu documento.
-
-%-------- Citacoes ---------
-% - Utilize o comando \citeonline{...} para citacoes com o seguinte formato: Autor et al. (2011).
-% Este tipo de formato eh utilizado no comeco do paragrafo. P.ex.: \citeonline{autor2011}
-
-% - Utilize o comando \cite{...} para citacoeses no meio ou final do paragrafo. P.ex.: \cite{autor2011}
-
-%-------- Titulos com nomes cientificos (titulo, capitulos e secoes) ----------
-% Regra para escrita de nomes cientificos:
-% Os nomes devem ser escritos em italico, 
-%a primeira letra do primeiro nome deve ser em maiusculo e o restante em minusculo (inclusive a primeira letra do segundo nome).
-% VEJA os exemplos abaixo.
-% 
-% 1) voce nao quer que a secao fique com uppercase (caixa alta) automaticamente:
-%\section[nouppercase]{\MakeUppercase{Estudo dos efeitos da radiacao ultravioleta C e TFD em celulas de} {\textit{Saccharomyces boulardii}}
-%
-% 2) por padrao os cases (maiusculas/minuscula) sao ajustados automaticamente, voce nao precisa usar makeuppercase e afins.
-% \section{Introducao} % a introducao sera posta no texto como INTRODUCAO, automaticamente, como a norma indica.
 
 \end{document}

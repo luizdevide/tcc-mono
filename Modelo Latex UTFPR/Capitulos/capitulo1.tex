@@ -1,15 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CAPÍTULO 1
 \chapter{contexto}  
-Em 1990, Tim Berners-Lee desenvolveu o primeiro navegador web da história, o WorldWideWeb. Feito que no final desse mesmo ano se uniu a outras criações de Lee, como o servidor e as primeiras páginas web, marcando assim a história como o primeiro serviço publicado na internet. 
+Em 1990, Tim Berners-Lee desenvolveu o primeiro navegador web da história, o WorldWideWeb \cite{Berners-Lee1996}. Feito que no final desse mesmo ano se uniu a outras criações de Lee, como o servidor e as primeiras páginas web, marcando assim a história como o primeiro serviço publicado na internet. 
 
-Nos anos seguintes, com o anúncio feito pela CERN, em 1993, de que a internet seria liberada para todos, foi o estopim para que o mundo visse todo o potencial tecnológico que ali existia. Dessa maneira novas tecnologias passaram a serem criadas para facilitar todo esse processo, sendo as principais delas o CSS, em 1996, e o JavaScript em 1995. 
+Nos anos seguintes, com o anúncio feito pela CERN, em 1993, de que a internet seria liberada para todos \cite{CERN2018}, foi o estopim para que o mundo visse todo o potencial tecnológico que ali existia. Dessa maneira novas tecnologias passaram a serem criadas para facilitar todo esse processo, sendo as principais delas o CSS, em 1996, e o JavaScript em 1995. 
 
 Com a união do HTML, CSS e JavaScript temos a base dos sistemas Webs usados até hoje, porém de formas mais avançadas. 
 
-Diferente de outras linguagens, o HTML é uma linguagem de marcação. Isso quer dizer que com ela podemos marcar elementos de nosso código, para assim definir o que deve ser mostrado na página. Porém a forma que os elementos são mostrados na página é de uma maneira muito simples, então para isso temos o CSS para nos auxiliar.
+Diferente de outras linguagens, o HTML é uma linguagem de marcação \cite{W3C2018}. Isso quer dizer que com ela podemos marcar elementos de nosso código, para assim definir o que deve ser mostrado na página. Porém a forma que os elementos são mostrados na página é de uma maneira muito simples, então para isso temos o CSS para nos auxiliar.
 
-O CSS é formado por um conjunto de regras formando uma folha de estilo que irá alterar a apresentação do nosso HTML. Porém temos algumas limitações usando apenas o CSS, como a falta de interação com o usuário e incapacibilidade de se fazer alterações dinâmicas.
+O CSS é formado por um conjunto de regras formando uma folha de estilo que irá alterar a apresentação do nosso HTML \cite{W3C20182}. Porém temos algumas limitações usando apenas o CSS, como a falta de interação com o usuário e incapacibilidade de se fazer alterações dinâmicas.
 
 Como o próprio nome diz, JavaScript é uma linguagem baseada em scripts, sendo utilizada pelo lado do cliente. Isso se deve ao fato de ser executada diretamente no browser, não tendo acesso ao servidor. Com ela podemos fazer alterações dinâmicas na nossa página, validar campos entre outras funcionalidades.
 
@@ -21,22 +21,22 @@ Esse foco nos aparelhos móveis acabou acarretando na criação dos smartphones, ap
 
 Atualmente existem dois sistemas operacionais mais utilizados e mobiles, o Android e o iOS, exclusivo da Apple. Nos dois é possível através de uma loja virtual, fazer os downloads dos apps mais recentes. Aplicativos esses que geralmente são criados de forma nativa, isso quer dizer que são desenvolvidos na linguagem nativa do sistema operacional. 	
 
-O desenvolvimento nativo é uma técnica muito utilizada, porém com grandes desvantagens em relação, por exemplo, ao desenvolvimento híbrido. Pois no nativo será necessário uma equipe para o desenvolvimento do app para apenas um sistema operacional, tornando assim o desenvolvimento muito custoso. 
+O desenvolvimento nativo é uma técnica muito utilizada, porém com grandes desvantagens em relação, por exemplo, ao desenvolvimento híbrido. Pois no nativo será necessário uma equipe para o desenvolvimento do app para apenas um sistema operacional, tornando assim o desenvolvimento muito custoso \cite{DanielMadureira2017}. 
 
 Por esses motivos uma nova tecnologia vem criando muita força no mercado. Esse novo tipo de desenvolvimento web é conhecido como PWA, ou Progressive Web Apps. Onde com essa tecnologia é possível desenvolver a sua aplicação web, fazendo a funcionar tanto como um site, e como um aplicativo mobile.
 
-Tecnologia, essa conhecida por ter algumas características obrigatórias:
-\begin{enumerate}
-\item Progressivo: Deve funcionar em qualquer navegador utilizado pelo usuário.
-\item Responsivo: Deve se adequar aos formatos da tela sempre. Mesmo quando aberto em um desktop, celular ou tablet.
-\item Offline: O sistema deve estar sempre disponível, mesmo que de forma parcial.
-\item Instalável: Ao abrir a página web no navegador do celular, é preciso mostrar uma mensagem de instalação do aplicativo para o usuário.
-\end{enumerate}
+Tecnologia, essa conhecida por ter algumas características obrigatórias \cite{Developers2018}:
+\begin{itemize}
+	\item Progressivo: Deve funcionar em qualquer navegador utilizado pelo usuário.
+	\item Responsivo: Deve se adequar aos formatos da tela sempre. Mesmo quando aberto em um desktop, celular ou tablet.
+	\item Offline: O sistema deve estar sempre disponível, mesmo que de forma parcial.
+	\item Instalável: Ao abrir a página web no navegador do celular, é preciso mostrar uma mensagem de instalação do aplicativo para o usuário.
+\end{itemize}
 Ao se cumprir todos esses requisitos, temos uma aplicação web, que pode ser vista como um site em seu navegador, ou pode ser baixada e utilizada como um aplicativo em seu dispositivo móvel.
 
 
 \section{Problema}
-Em 2016 haviam aproximadamente 8.05 milhões de estudantes matriculados em cursos ofertados por 2.407 instituições de ensino superior. Número que se comparado ao ano de 2006, mostra um aumento de 62.8\% da taxa de matrículas \cite{mec}.
+Em 2016 haviam aproximadamente 8.05 milhões de estudantes matriculados em cursos ofertados por 2.407 instituições de ensino superior. Número que se comparado ao ano de 2006, mostra um aumento de 62.8\% da taxa de matrículas \cite{Brasil2017}.
 
 Esse grande número de universitários, em relação ao pouco número de instituições nos mostra que esses ambientes precisam ser muito grande, para comportar a alta quantidade de estudantes.
 
@@ -54,14 +54,13 @@ Além do fato de poder descobrir novos eventos, será possível realizar a criação 
 O principal objetivo desse trabalho será o desenvolvimento de um site, usando PWA (Progressive Web App) para isso. Esse site poderá ser usado como um aplicativo em dispositivos móveis. Sendo sua principal função, a de permitir que o usuário tenha conhecimento de eventos que estão acontecendo ao seu redor. Sua primeira versão será funcional apenas no campus de Cornélio Procópio, da Universidade Tecnológica Federal do Paraná. 
 
 \subsection{Objetivos Espec\'ificos}
-\begin{enumerate}
-\item Disponibilizar o mapa, através do Google Maps,  com a localização atual do usuário, mostrando assim os eventos ao seu redor. Esse mapa, assim como todo sistema, estará em apenas uma página.
-\item Ter o seu desenvolvimento em PWA irá garantir uma maior flexibilidade para o usuário. Tendo em vista que o foco do projeto é ajudar os estudantes a terem informações de todos os eventos acontecendo no interior do campus. Portanto o acesso poderá ser feito através de um notebook, ser baixado como um aplicativo, e até ter elementos carregados de forma offline.
-\item O layout da aplicação deverá ser idêntico em todas as plataformas utilizadas, se comportando sempre da mesma forma.
-\end{enumerate}
+\begin{itemize}
+	\item Disponibilizar o mapa, através do Google Maps,  com a localização atual do usuário, mostrando assim os eventos ao seu redor. Esse mapa, assim como todo sistema, estará em apenas uma página.
+	\item Ter o seu desenvolvimento em PWA irá garantir uma maior flexibilidade para o usuário. Tendo em vista que o foco do projeto é ajudar os estudantes a terem informações de todos os eventos acontecendo no interior do campus. Portanto o acesso poderá ser feito através de um notebook, ser baixado como um aplicativo, e até ter elementos carregados de forma offline.
+	\item O layout da aplicação deverá ser idêntico em todas as plataformas utilizadas, se comportando sempre da mesma forma.
+\end{itemize}
 
 
 
 
 \section{Organização do Texto}
-

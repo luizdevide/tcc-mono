@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  7 MAY 2018 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  8 MAY 2018 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,30 +371,29 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (./modelo_utfpr.aux
 (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
-(./Capitulos/capitulo3.aux) (./Capitulos/capitulo4.aux)
-(./Capitulos/capitulo5.aux))
+(./Capitulos/capitulo3.aux))
 \openout1 = `modelo_utfpr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 73.
+(lastpage)             ! on input line 72.
 
 (d:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -466,49 +465,49 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 76
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 74
 .
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 76
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 74
 .
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 76
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 74
 .
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 76
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 74
 .
 
 (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
  [1
 
 {d:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
 <brasao.png, id=11, 260.8947pt x 261.6174pt>
 File: brasao.png Graphic file (type png)
 <use brasao.png>
-Package pdftex.def Info: brasao.png  used on input line 78.
+Package pdftex.def Info: brasao.png  used on input line 76.
 (pdftex.def)             Requested size: 62.59605pt x 62.76949pt.
 <logo-utfpr.png, id=13, 48.56544pt x 17.77843pt>
 File: logo-utfpr.png Graphic file (type png)
 <use logo-utfpr.png>
-Package pdftex.def Info: logo-utfpr.png  used on input line 78.
+Package pdftex.def Info: logo-utfpr.png  used on input line 76.
 (pdftex.def)             Requested size: 85.35826pt x 31.24886pt.
 
 
@@ -530,45 +529,37 @@ Package Fancyhdr Warning: \footskip is too small (0.0pt):
 ] [3
 
 
-] (./modelo_utfpr.lof)
-\tf@lof=\write3
-\openout3 = `modelo_utfpr.lof'.
+] (./modelo_utfpr.toc)
+\tf@toc=\write3
+\openout3 = `modelo_utfpr.toc'.
 
  [4
-
-]
-(./modelo_utfpr.lot)
-\tf@lot=\write4
-\openout4 = `modelo_utfpr.lot'.
-
- [5
-
-] (./modelo_utfpr.toc)
-\tf@toc=\write5
-\openout5 = `modelo_utfpr.toc'.
-
- [6
 
 
 ]
 \openout2 = `./Capitulos/capitulo1.aux'.
 
- (./Capitulos/capitulo1.tex
+
+(./Capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
-[8
+[6
 
 
 
 ]
-
-LaTeX Warning: Citation `mec' on page 9 undefined on input line 39.
-
-[9] [10]) [11]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 30.
+ (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+ [7] [8]) [9]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
- (./Capitulos/capitulo2.tex
+
+(./Capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
-[12
+[10
 
 
 
@@ -584,166 +575,137 @@ Overfull \hbox (6.70357pt too wide) in paragraph at lines 39--40
 -dade, pois em uma aplica[][]ao SPA(Single
  []
 
-[13]
+[11]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
-<./figuras/pwa.png, id=54, 479.7925pt x 552.0625pt>
+<./figuras/pwa.png, id=48, 479.7925pt x 552.0625pt>
 File: ./figuras/pwa.png Graphic file (type png)
 <use ./figuras/pwa.png>
 Package pdftex.def Info: ./figuras/pwa.png  used on input line 58.
 (pdftex.def)             Requested size: 296.7508pt x 341.43306pt.
- [14 <./figuras/pwa.png>]) [15]
+ [12 <./figuras/pwa.png>]
+<./figuras/install.png, id=54, 412.54124pt x 232.61906pt>
+File: ./figuras/install.png Graphic file (type png)
+<use ./figuras/install.png>
+Package pdftex.def Info: ./figuras/install.png  used on input line 103.
+(pdftex.def)             Requested size: 454.18706pt x 256.0748pt.
+<./figuras/activate.png, id=55, 581.92406pt x 280.79906pt>
+File: ./figuras/activate.png Graphic file (type png)
+<use ./figuras/activate.png>
+Package pdftex.def Info: ./figuras/activate.png  used on input line 116.
+(pdftex.def)             Requested size: 471.71997pt x 227.62204pt.
+
+Overfull \hbox (16.47586pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+[13] [14 <./figuras/install.png> <./figuras/activate.png>]
+<./figuras/message.png, id=64, 463.7325pt x 216.05719pt>
+File: ./figuras/message.png Graphic file (type png)
+<use ./figuras/message.png>
+Package pdftex.def Info: ./figuras/message.png  used on input line 131.
+(pdftex.def)             Requested size: 488.5751pt x 227.62204pt.
+
+Overfull \hbox (33.331pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
+
+) [15 <./figuras/message.png>] [16]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
  (./Capitulos/capitulo3.tex
 Cap\'{\i }tulo 3.
-) [16
+
+Overfull \hbox (15.81898pt too wide) in paragraph at lines 7--8
+[]\OT1/ptm/m/n/12 Portanto, ire-mos uti-li-zar HTML5, CSS3 e Ja-vaS-cript para 
+o de-sen-vol-vi-mento da aplica[][]ao. 
+ []
+
+<./figuras/semCSS.png, id=72, 846.91406pt x 500.62032pt>
+File: ./figuras/semCSS.png Graphic file (type png)
+<use ./figuras/semCSS.png>
+Package pdftex.def Info: ./figuras/semCSS.png  used on input line 19.
+(pdftex.def)             Requested size: 385.07512pt x 227.62204pt.
+<./figuras/comCSS.png, id=73, 1091.57813pt x 702.37407pt>
+File: ./figuras/comCSS.png Graphic file (type png)
+<use ./figuras/comCSS.png>
+Package pdftex.def Info: ./figuras/comCSS.png  used on input line 28.
+(pdftex.def)             Requested size: 353.75932pt x 227.62204pt.
+[17
 
 
 
-]
-\openout2 = `./Capitulos/capitulo4.aux'.
-
- (./Capitulos/capitulo4.tex
-Cap\'{\i }tulo 4.
-) [17
-
-
-
-]
-\openout2 = `./Capitulos/capitulo5.aux'.
-
- (./Capitulos/capitulo5.tex
-Cap\'{\i }tulo 5.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
-(d:/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: Citation `CTAN2009' on page 18 undefined on input line 5.
-
-
-LaTeX Warning: Citation `TeX-Br2009' on page 18 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Wikibooks2009' on page 18 undefined on input line 5.
-
-
-Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
-[]\OT1/ptm/m/n/12 Espera-se que o uso do es-tilo de formata[][]ao L[]T[]X ade-q
-uado []as Nor-mas para Elabora[][]ao
+] [18 <./figuras/semCSS.png> <./figuras/comCSS.png>]) [19]
+(./modelo_utfpr.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
+[]\OT1/ptm/m/n/12 DEVELOPERS, G. \OT1/ptm/b/n/12 Pro-gres-sive Web Apps\OT1/ptm
+/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-LaTeX Warning: Citation `TeXnicCenter2009' on page 18 undefined on input line 7
-.
-
-
-LaTeX Warning: Citation `MiKTeX2009' on page 18 undefined on input line 7.
-
-
-Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
-\OT1/ptm/m/n/12 em L[]T[]X para usu[]arios Li-nux. Para usu[]arios Win-dows rec
-omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
+[]\OT1/ptm/m/n/12 GAUNT, M. \OT1/ptm/b/n/12 Ser-vice Wor-kers: uma Introdu[][]a
+o\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-LaTeX Warning: Citation `JabRef2009' on page 18 undefined on input line 9.
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+[]\OT1/ptm/m/n/12 KINLAN, M. G. P. \OT1/ptm/b/n/12 O ma-ni-festo do apli-ca-tiv
+o web\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
+ []
 
 
-LaTeX Warning: Citation `Mendeley2009' on page 18 undefined on input line 9.
-
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
-(d:/texlive/2017/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-) [18
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+[]\OT1/ptm/m/n/12 LIMA, M. \OT1/ptm/b/n/12 Introdu[][]ao aos Pro-gres-sive Web 
+Apps\OT1/ptm/m/n/12 . 2017. Dis-pon[]^^Pvel em:
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+[]\OT1/ptm/m/n/12 W3C. \OT1/ptm/b/n/12 Cas-ca-ding Style She-ets\OT1/ptm/m/n/12
+ . 2018. Dis-pon[]^^Pvel em:
+ []
 
-]
-(./modelo_utfpr.bbl) [19
 
+Overfull \hbox (33.00679pt too wide) in paragraph at lines 76--79
+[]\OT1/ptm/m/n/12 W3C. \OT1/ptm/b/n/12 HTML 5.2\OT1/ptm/m/n/12 . 2018. Dis-pon[
+]^^Pvel em: $\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://www.w3.org/TR/html52/
+introduction.html#scope$\OML/ztmcm/m/it/12 >$\OT1/ptm/m/n/12 . 
+ []
 
-]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \chapter{Nome do Ap\^endice A}
-                                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Apendice A.
+) 
+AED: lastpage setting LastPage
 [20
 
-]
-Apendice B.
-[21
-
-]
-Anexo A.
-
-AED: lastpage setting LastPage
-[22
 
 ]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-
-! LaTeX Error: \begin{thebibliography} on input line 3 ended by \end{document}.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 (./modelo_utfpr.aux (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
-(./Capitulos/capitulo3.aux) (./Capitulos/capitulo4.aux)
-(./Capitulos/capitulo5.aux))
-
-LaTeX Warning: There were undefined references.
-
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 3 (\begingroup)
-### bottom level 
+(./Capitulos/capitulo3.aux)) ) 
 Here is how much of TeX's memory you used:
- 5015 strings out of 492982
- 67163 string characters out of 6136225
- 151889 words of memory out of 5000000
- 8350 multiletter control sequences out of 15000+600000
- 36907 words of font info for 82 fonts, out of 8000000 for 9000
+ 5021 strings out of 492982
+ 67518 string characters out of 6136225
+ 151669 words of memory out of 5000000
+ 8377 multiletter control sequences out of 15000+600000
+ 34947 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,45p,696b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2017/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb>
-Output written on modelo_utfpr.pdf (23 pages, 399000 bytes).
+ 41i,17n,45p,588b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/
+8r.enc}<d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d
+:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive
+/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb>
+Output written on modelo_utfpr.pdf (21 pages, 606539 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

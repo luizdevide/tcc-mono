@@ -5,4 +5,76 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.52 }
 
+\bibitem[Berners-Lee 1996]{Berners-Lee1996}
+\abntrefinfo{Berners-Lee}{BERNERS-LEE}{1996}
+{BERNERS-LEE, T. \textbf{{The World Wide Web: Past, Present and Future}}. 1996.
+Dispon{\'\i}vel em: $<$https://www.w3.org/People/Berners-Lee/1996/ppf.html$>$.}
 
+\bibitem[Brasil 2017]{Brasil2017}
+\abntrefinfo{Brasil}{BRASIL}{2017}
+{BRASIL, G. do. \textbf{{Ensino superior tem 8,05 milh{\~{o}}es de alunos
+  matriculados em 2016}}. 2017.
+Dispon{\'\i}vel em:
+  $<$http://www.brasil.gov.br/educacao/2017/08/ensino-superior-tem-8-05-milhoes-de-alunos-matriculados-em-2016$>$.}
+
+\bibitem[CERN 2018]{CERN2018}
+\abntrefinfo{CERN}{CERN}{2018}
+{CERN. \textbf{{The birth of the web}}. 2018.
+Dispon{\'\i}vel em: $<$https://home.cern/topics/birth-web$>$.}
+
+\bibitem[Crockford 2006]{Crockford2006}
+\abntrefinfo{Crockford}{CROCKFORD}{2006}
+{CROCKFORD, D. {The application/json Media Type for JavaScript Object Notation
+  (JSON)}.
+p. 1--10, 2006.
+Dispon{\'\i}vel em: $<$https://tools.ietf.org/pdf/rfc4627.pdf$>$.}
+
+\bibitem[Developers 2018]{Developers2018}
+\abntrefinfo{Developers}{DEVELOPERS}{2018}
+{DEVELOPERS, G. \textbf{{Progressive Web Apps}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://developers.google.com/web/progressive-web-apps/$>$.}
+
+\bibitem[Gaunt 2018]{Gaunt2018}
+\abntrefinfo{Gaunt}{GAUNT}{2018}
+{GAUNT, M. \textbf{{Service Workers: uma Introdu{\c{c}}{\~{a}}o}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://developers.google.com/web/fundamentals/primers/service-workers/?hl=pt-br$>$.}
+
+\bibitem[Justen 2017]{Justen}
+\abntrefinfo{Justen}{JUSTEN}{2017}
+{JUSTEN, W. \textbf{{Como fazer seu site funcionar offline com PWA}}. 2017.
+Dispon{\'\i}vel em:
+  $<$https://willianjusten.com.br/como-fazer-seu-site-funcionar-offline-com-pwa/$>$.}
+
+\bibitem[Kinlan 2018]{PaulKinlan2018}
+\abntrefinfo{Kinlan}{KINLAN}{2018}
+{KINLAN, M.~G. P. \textbf{{O manifesto do aplicativo web}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://developers.google.com/web/fundamentals/web-app-manifest/?hl=pt-br$>$.}
+
+\bibitem[Lima 2017]{Lima2017}
+\abntrefinfo{Lima}{LIMA}{2017}
+{LIMA, M. \textbf{{Introdu{\c{c}}{\~{a}}o aos Progressive Web Apps}}. 2017.
+Dispon{\'\i}vel em:
+  $<$https://tableless.com.br/introducao-aos-progressive-web-apps/$>$.}
+
+\bibitem[Madureira 2017]{DanielMadureira2017}
+\abntrefinfo{Madureira}{MADUREIRA}{2017}
+{MADUREIRA, D. \textbf{{Aplicativo nativo, web App ou aplicativo
+  h{\'{i}}brido?}} 2017.
+Dispon{\'\i}vel em:
+  $<$https://usemobile.com.br/aplicativo-nativo-web-hibrido/$>$.}
+
+\bibitem[W3C 2018]{W3C20182}
+\abntrefinfo{W3C}{W3C}{2018a}
+{W3C. \textbf{{Cascading Style Sheets}}. 2018.
+Dispon{\'\i}vel em: $<$https://www.w3.org/Style/CSS/Overview.en.html$>$.}
+
+\bibitem[W3C 2018]{W3C2018}
+\abntrefinfo{W3C}{W3C}{2018b}
+{W3C. \textbf{{HTML 5.2}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://www.w3.org/TR/html52/introduction.html{\#}scope$>$.}
+
+\end{thebibliography}

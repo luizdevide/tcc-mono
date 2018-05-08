@@ -4,15 +4,15 @@
 
 \section{PWA}
 
-Dados comparados entre os anos de 2015 e 2016, mostram que o número de downloads de aplicativos móveis diminui em 20\%. Esse fato, somado ao dado de que o usuário gasta 80\% do seu tempo em apenas 5 aplicativos(Tabeless), mostra que esse é um mercado muito concorrido, e já dominado por grandes empresas.
+Dados comparados entre os anos de 2015 e 2016, mostram que o número de downloads de aplicativos móveis diminui em 20\%. Esse fato, somado ao dado de que o usuário gasta 80\% do seu tempo em apenas 5 aplicativos \cite{Lima2017}, mostra que esse é um mercado muito concorrido, e já dominado por grandes empresas.
 
 Devido a esses números algumas empresas se sentem receosas ao desenvolver uma aplicação. Principalmente se ela for feita de forma nativa, onde será necessário o uso de pelo menos duas equipes de desenvolvimento, uma para sistemas Android, e outra para sistemas iOS. 
 
-Uma aplicação nativa traz algumas desvantagens, como um custo de desenvolvimento maior, e até mesmo uma incerteza sobre a aprovação da mesma em ser publicadas nas principais lojas de aplicativos(UseMobile).
+Uma aplicação nativa traz algumas desvantagens, como um custo de desenvolvimento maior, e até mesmo uma incerteza sobre a aprovação da mesma em ser publicadas nas principais lojas de aplicativos \cite{DanielMadureira2017}.
 
 É nesse momento que surge a opção do PWA, um modelo de desenvolvimento que combina o melhor do web, com o melhor dos aplicativos. Bastando assim apenas o desenvolvimento de tipo web, para ser ter um aplicativo funcional, assim como um site.
 
-Mas para ser considerado um PWA, este aplicativo precisa obedecer algumas regras, que são(WillianJusten):
+Mas para ser considerado um PWA, este aplicativo precisa obedecer algumas regras, que são \cite{Justen}:
 
 \begin{enumerate}
 	\item Progressivo: Deve funcionar para todo e qualquer tipo de usuário, independente do navegador utilizado. Um exemplo disso é o site do NY Times, que é um PWA, e funciona em qualquer navegador. 
@@ -45,26 +45,26 @@ Para facilitar que esses objetivos sejam alcançados, existirá um arquivo chamado
 
 \section{Manifest}
 
-Um dos principais arquivos existentes em uma aplicação PWA é o manifest.json, pois através dele o seu browser irá reconhecer o site como um PWA e dando assim a opção de instalação para o usuário(Willian Justen).
+Um dos principais arquivos existentes em uma aplicação PWA é o manifest.json, pois através dele o seu browser irá reconhecer o site como um PWA e dando assim a opção de instalação para o usuário \cite{Justen}.
 
-O seu formato de arquivo é um JSON (JavaScript Object Notation), tipo muito usado para a transmissão de texto devido a sua simplicidade e portabilidade em relação ao JavaScript(D. Crockford).
+O seu formato de arquivo é um JSON (JavaScript Object Notation), tipo muito usado para a transmissão de texto devido a sua simplicidade e portabilidade em relação ao JavaScript \cite{Crockford2006}.
 
-Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principais regras:
+Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principais regras \cite{PaulKinlan2018}:
 
 \begin{figure}[!htb]
 	\centering
-	%\begin{measuredfigure}
+	%begin{measuredfigure}
 	\caption{Exemplo de um arquivo manifest}
 	\includegraphics[height=12cm]{./figuras/pwa.png} \quad
 	\fonte{Autoria Propria}
-	%\end{measuredfigure}
+	%end{measuredfigure}
 \end{figure}
 
 \begin{enumerate}
 	\item name: Esse será o nome da aplicação.
-
+	
 	\item short-name: O nome que irá aparecer no ícone do aplicativo.
-
+	
 	\item theme-color: Define a cor tema da aplicação, como por exemplo a cor da barra de ferramentas.
 	
 	\item background-color: Cor de fundo da aplicação, item obrigatório.
@@ -77,7 +77,7 @@ Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principa
 	
 	\item orientation: Define se a aplicação será utilizada em telas na vertical ou na horizontal.
 	
-	\item icons: Define as dimensões da imagem a ser usada com ícone. Essa imagem deve ser do tipo PNG.(Google Dev.)
+	\item icons: Define as dimensões da imagem a ser usada com ícone. Essa imagem deve ser do tipo PNG.
 	
 \end{enumerate}
 
@@ -85,6 +85,61 @@ Após a criação do manifest, é necessário o adicionar em seu projeto. Para isso é
 
 
 \section{Service Worker}
+O Service Worker é um arquivo java script, executado de forma paralela ao navegador. Sendo muito utilizado para o tratamento de solicitações de redes e gerenciamento de cache \cite{Gaunt2018}. Desse modo, temos um maior controle da experiência offline que o usuário terá.
+
+Alguns detalhes são essenciais para se manter o seu funcionamento de forma correta. Como o fato de um Service Worker funcionar como uma thread separada do browser, não conseguindo ter acesso ao DOM(Modelo de Objetos de Documentos). E para evitar uma duplicação do Service Worker é necessário que o arquivo tenha sempre o mesmo nome, e fique sempre no mesmo lugar \cite{Justen}.
+
+Com isso em mente, o primeiro passo será verificação de que o navegador utilizado suporta o Service Worker. Atualmente navegadores como Chrome, FireFox e Opera se mostraram bastante receptivos a esta tecnologia. Porém alguns, como o Safari e Edge, não mostraram estar totalmente preparados para ela \cite{Gaunt2018}. 
+
+O funcionamento de um Service Worker é realizado através de fases, que se comportam como o ciclo de vida dele. Esse ciclo é formado por 6 eventos, que são:
+
+\begin{itemize}
+	\item Install: Este evento só é chamado na primeira vez em que o Service Worker é registrado, porém caso haja alguma atualização no arquivo, ele será executado novamente.
+	
+	\begin{figure}[!htb]
+		\centering
+		%begin{measuredfigure}
+		\caption{Exemplo do evento install}
+		\includegraphics[height=9cm]{./figuras/install.png} \quad
+		\fonte{Autoria Propria}
+		%end{measuredfigure}
+	\end{figure}
+	
+	Nesse exemplo podemos observar que é atribuído um nome a variável cache, e pra ele é passado o horário em que o site foi gerado. Desse modo teremos a informação de quando o site foi atualizado. Isso permite que o Service Worker atualize o cache.
+	
+	\item Activate: É executado apenas uma vez quando uma nova versão do Service Worker for instalada, e nenhuma outra versão antiga estiver rodando.
+	
+	\begin{figure}[!htb]
+		\centering
+		%begin{measuredfigure}
+		\caption{Exemplo do evento activate}
+		\includegraphics[height=8cm]{./figuras/activate.png} \quad
+		\fonte{Autoria Propria}
+		%end{measuredfigure}
+	\end{figure}
+	
+	Um de seus principais que podemos ver na imagem, é o de excluir arquivos antigos. Dessa forma garantimos que nosso usuário nunca estará vendo informações antigas.
+	
+	\item Fetch: Este evento é executado toda vez que a página for requisitada. Sendo um dos principais pela velocidade de carregamento de um conteúdo específico. Pois ele irá verificar se um arquivo já existe na cache, e caso não exista você poderá redirecionar o usuário para uma outra página, podendo ser até offline.
+	
+	\item Message: Este evento é executado em situações específicas. Geralmente é uma mensagem criado pelo cliente, e lida pelo Service Worker.
+	
+	\begin{figure}[!htb]
+		\centering
+		%begin{measuredfigure}
+		\caption{Exemplo do evento message}
+		\includegraphics[height=8cm]{./figuras/message.png} \quad
+		\fonte{Autoria Propria}
+		%end{measuredfigure}
+	\end{figure}
+	
+	Nesse caso o cliente utilizou um método chamado postMessage() para enviar a mensagem para o Service Worker.
+	
+	\item Sync: Este evento será executado sempre que necessário. Sua principal função será de sincronizar uma página, mesmo que o usuário não tenha internet para isso no momento. Portanto ele ficará tentando fazer o seu carregamento até que a página esteja disponível, e quando isso acontecer poderá ser enviado uma notificação para o usuário. Um exemplo disso, são as publicações offline do facebook. Onde mesmo sem conexão o usuário pode realizar uma postagem. E ao se conectar a uma rede, essa publicação estará online.
+	
+	\item Push: Este evento é executado sempre que uma notificação for solicitada. É através dele que podemos criar notificações, tanto em dispositivos móveis, tanto em sistemas como o próprio Windows.  
+\end{itemize}
+
+Desses eventos, teremos três de forma essencial na aplicação. Que são eles: Install, Activate e o Fetch. 
 
 \section{Trabalhos Relacionados}
-
