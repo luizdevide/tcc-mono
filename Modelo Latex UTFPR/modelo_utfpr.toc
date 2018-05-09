@@ -1,16 +1,18 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}\MakeUppercase {contexto}}{6}
-\contentsline {section}{\numberline {1.1}\MakeUppercase {Delimita\c c\~ao do Tema}}{7}
-\contentsline {section}{\numberline {1.2}\MakeUppercase {Problema}}{8}
-\contentsline {section}{\numberline {1.3}\MakeUppercase {Objetivos}}{8}
-\contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{8}
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'ificos}{8}
-\contentsline {section}{\numberline {1.4}\MakeUppercase {Organiza\c c\~ao do Texto}}{9}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{10}
-\contentsline {section}{\numberline {2.1}\MakeUppercase {PWA}}{10}
-\contentsline {section}{\numberline {2.2}\MakeUppercase {Manifest}}{11}
-\contentsline {section}{\numberline {2.3}\MakeUppercase {Service Worker}}{13}
-\contentsline {section}{\numberline {2.4}\MakeUppercase {Trabalhos Relacionados}}{15}
+\contentsline {chapter}{\numberline {1}\MakeUppercase {contexto}}{5}
+\contentsline {section}{\numberline {1.1}\MakeUppercase {Delimita\c c\~ao do Tema}}{6}
+\contentsline {section}{\numberline {1.2}\MakeUppercase {Problema}}{7}
+\contentsline {section}{\numberline {1.3}\MakeUppercase {Objetivos}}{7}
+\contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{7}
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'ificos}{7}
+\contentsline {section}{\numberline {1.4}\MakeUppercase {Organiza\c c\~ao do Texto}}{8}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{9}
+\contentsline {section}{\numberline {2.1}\MakeUppercase {PWA}}{9}
+\contentsline {section}{\numberline {2.2}\MakeUppercase {Manifest}}{10}
+\contentsline {section}{\numberline {2.3}\MakeUppercase {Service Worker}}{12}
+\contentsline {section}{\numberline {2.4}\MakeUppercase {Trabalhos Relacionados}}{14}
+\contentsline {subsection}{\numberline {2.4.1}Trivago}{14}
+\contentsline {subsection}{\numberline {2.4.2}Facebook}{15}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Proposta}}{16}
 \contentsline {section}{\numberline {3.1}\MakeUppercase {Tecnologias e Ferramentas}}{16}
 \contentsline {section}{\numberline {3.2}\MakeUppercase {Desenvolvimento}}{17}

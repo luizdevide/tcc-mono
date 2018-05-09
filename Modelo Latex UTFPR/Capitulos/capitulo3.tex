@@ -29,7 +29,7 @@ O HTML5 será utilizado na construção da página. É com ele que definimos a estrut
 	%end{measuredfigure}
 \end{figure}
 
-O JavaScript nos permite implementar funcionalidades em nossa página web. Um exemplo disso será o de realizar o rolamento da página ao se clicar em uma opção do menu, ou de realizar um efeito ao se abrir o próprio menu.
+O JavaScript nos permite implementar funcionalidades em nossa página web. Um exemplo disso será o de realizar o rolamento da página ao se clicar em uma opção do menu, ou de realizar um efeito ao se abrir o próprio menu. 
 
 \section{Desenvolvimento}
 
@@ -41,10 +41,13 @@ O JavaScript nos permite implementar funcionalidades em nossa página web. Um exe
 	\fonte{Autoria Propria}
 	%end{measuredfigure}
 \end{figure}
+Para o desenvolvimento do software será usado o modelo incremental. Nesse modelo o software sempre deve estar funcional no fim de cada fase. E após isso o mesmo deve ser incrementado com novas funções.
 
 O primeiro passo do desenvolvimento será o de construir o front-end da aplicação. Nessa fase teremos a interface do sistema. Por se tratar de um SPA, a sua construção será bem minimalista. Contendo apenas um campo de busca, um menu de opções, um botão para adicionar um evento, tudo isso sobre o layout do mapa. Esse mapa será formado utilizando a API do Google Maps.
 
-Com o campo de busca será possível procurar endereços, tendo acesso a eventos próximos a ele. Já no menu teremos algumas informações do usuários, locais recentes e a opção de criar um evento. Outro modo de se criar o evento e clicando no botão rápido existente.
+Na segunda etapa será implementado o campo de busca, com ele será possível procurar salas, tendo acesso a eventos próximos a ele. Já no menu teremos algumas informações do usuários, locais recentes e a opção de criar um evento. Outro modo de se criar o evento e clicando no botão rápido existente.
+
+A ultima etapa será a implementação do mapa, que deverá estar ligado ao sistema de posicionamento do dispositivo.
 
 O mapa a ser usado irá sempre acompanhar o usuário, mostrando todos os eventos ao seu redor. Esse mapa será no formato 2D, e irá ocupar a tela inteira. A localização do usuário será captada através de seu GPS, que compartilhará essa informação com a API do Google Maps, mostrando assim a sua localização. 
 
