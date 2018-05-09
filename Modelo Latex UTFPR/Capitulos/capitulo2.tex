@@ -51,14 +51,26 @@ O seu formato de arquivo é um JSON (JavaScript Object Notation), tipo muito usad
 
 Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principais regras \cite{PaulKinlan2018}:
 
-\begin{figure}[!htb]
-	\centering
-	%begin{measuredfigure}
-	\caption{Exemplo de um arquivo manifest}
-	\includegraphics[height=12cm]{./figuras/pwa.png} \quad
-	\fonte{Autoria Propria}
-	%end{measuredfigure}
-\end{figure}
+\begin{lstlisting}
+{
+	"name": "PWA Aplication",
+	"short_name": "A-PWA",
+	"theme_color": "#09ffla",
+	"background_color": "#000000",
+	"display": "fullscreen",
+	"scope": "/",
+	"start_url": "/pwa-aplication",
+	"lang": "pt-BR",
+	"orientation": "any",
+	"icons": [
+		{
+		"src": "/assets/img/icons/icone.png",
+		"sizes": "512x512",
+		"type": "image/png"
+		}
+	]
+}	
+\end{lstlisting}
 
 \begin{enumerate}
 	\item name: Esse será o nome da aplicação.
@@ -96,42 +108,59 @@ O funcionamento de um Service Worker é realizado através de fases, que se compor
 \begin{itemize}
 	\item Install: Este evento só é chamado na primeira vez em que o Service Worker é registrado, porém caso haja alguma atualização no arquivo, ele será executado novamente.
 	
-	\begin{figure}[!htb]
-		\centering
-		%begin{measuredfigure}
-		\caption{Exemplo do evento install}
-		\includegraphics[height=9cm]{./figuras/install.png} \quad
-		\fonte{Autoria Propria}
-		%end{measuredfigure}
-	\end{figure}
+	\begin{lstlisting}
+const staticCacheName = 'luiz-devide-2018-05-08-12-35';
+this.addEventListener('install', event => {
+	this.skipWaiting();
+	event.waitUntil(
+		caches.open(staticCacheName)
+			.then(cache => {
+				return cache.addAll(filesToCache);
+		})
+	)
+});
+	\end{lstlisting}
 	
 	Nesse exemplo podemos observar que é atribuído um nome a variável cache, e pra ele é passado o horário em que o site foi gerado. Desse modo teremos a informação de quando o site foi atualizado. Isso permite que o Service Worker atualize o cache.
 	
 	\item Activate: É executado apenas uma vez quando uma nova versão do Service Worker for instalada, e nenhuma outra versão antiga estiver rodando.
 	
-	\begin{figure}[!htb]
-		\centering
-		%begin{measuredfigure}
-		\caption{Exemplo do evento activate}
-		\includegraphics[height=8cm]{./figuras/activate.png} \quad
-		\fonte{Autoria Propria}
-		%end{measuredfigure}
-	\end{figure}
+	\begin{lstlisting}
+this.addEventListener('activate', event => {
+  event.waitUntil(
+	  caches.keys().then(cacheNames => {
+		  return Promise.all(
+		      cacheNames
+			   .filter(cacheName => 
+			   (cacheName.startsWith('luiz-devide')))
+			   .filter(cacheName => 
+			   (cacheName !== staticCacheName))
+			   .map(cacheName => 
+			   caches.delete(cacheName))
+		  );
+	  })		
+  );
+});
+	\end{lstlisting}
 	
 	Um de seus principais que podemos ver na imagem, é o de excluir arquivos antigos. Dessa forma garantimos que nosso usuário nunca estará vendo informações antigas.
 	
 	\item Fetch: Este evento é executado toda vez que a página for requisitada. Sendo um dos principais pela velocidade de carregamento de um conteúdo específico. Pois ele irá verificar se um arquivo já existe na cache, e caso não exista você poderá redirecionar o usuário para uma outra página, podendo ser até offline.
 	
+	
 	\item Message: Este evento é executado em situações específicas. Geralmente é uma mensagem criado pelo cliente, e lida pelo Service Worker.
 	
-	\begin{figure}[!htb]
-		\centering
-		%begin{measuredfigure}
-		\caption{Exemplo do evento message}
-		\includegraphics[height=8cm]{./figuras/message.png} \quad
-		\fonte{Autoria Propria}
-		%end{measuredfigure}
-	\end{figure}
+	\begin{lstlisting}
+//Enviando a mensagem para o cliente
+client.postMessage({
+	msg: "Exemplo de mensagem",
+	url: event.request.url
+});
+//Recebendo a mensagem
+	navigator.serviceWorker.addEventListener('message',event =>{
+	console.log(event.data.msg, event.data.url);
+});
+	\end{lstlisting}
 	
 	Nesse caso o cliente utilizou um método chamado postMessage() para enviar a mensagem para o Service Worker.
 	
