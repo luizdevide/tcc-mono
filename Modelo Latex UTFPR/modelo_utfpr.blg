@@ -15,6 +15,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: ./Referencias/reflatex.bib
+Repeated entry---line 153 of file ./Referencias/reflatex.bib
+ : @misc{Developers2018
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "abnt-etal-list=99"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -27,45 +31,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 18 entries,
+You've used 21 entries,
             6523 wiz_defined-function locations,
-            1250 strings with 11470 characters,
-and the built_in function-call counts, 10493 in all, are:
-= -- 936
-> -- 227
-< -- 3
-+ -- 121
-- -- 77
-* -- 596
-:= -- 1502
-add.period$ -- 60
-call.type$ -- 20
-change.case$ -- 100
-chr.to.int$ -- 23
-cite$ -- 15
-duplicate$ -- 403
-empty$ -- 1027
-format.name$ -- 345
-if$ -- 2589
+            1264 strings with 11936 characters,
+and the built_in function-call counts, 12267 in all, are:
+= -- 1068
+> -- 289
+< -- 2
++ -- 143
+- -- 97
+* -- 712
+:= -- 1757
+add.period$ -- 71
+call.type$ -- 23
+change.case$ -- 122
+chr.to.int$ -- 26
+cite$ -- 18
+duplicate$ -- 472
+empty$ -- 1188
+format.name$ -- 438
+if$ -- 3016
 int.to.chr$ -- 3
 int.to.str$ -- 2
-missing$ -- 259
-newline$ -- 84
-num.names$ -- 75
-pop$ -- 336
+missing$ -- 304
+newline$ -- 98
+num.names$ -- 90
+pop$ -- 401
 preamble$ -- 1
-purify$ -- 54
+purify$ -- 64
 quote$ -- 0
-skip$ -- 793
+skip$ -- 906
 stack$ -- 1
-substring$ -- 397
-swap$ -- 129
-text.length$ -- 1
+substring$ -- 439
+swap$ -- 147
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 95
+while$ -- 110
 width$ -- 0
-write$ -- 219
-(There was 1 warning)
+write$ -- 259
+(There was 1 error message)

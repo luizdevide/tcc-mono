@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.52 }
 
+\bibitem[Archibald 2018]{Archibald2018}
+\abntrefinfo{Archibald}{ARCHIBALD}{2018}
+{ARCHIBALD, J. \textbf{{Introducing Background Sync}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://developers.google.com/web/updates/2015/12/background-sync$>$.}
+
 \bibitem[Berners-Lee 1996]{Berners-Lee1996}
 \abntrefinfo{Berners-Lee}{BERNERS-LEE}{1996}
 {BERNERS-LEE, T. \textbf{{The World Wide Web: Past, Present and Future}}. 1996.
@@ -22,12 +28,10 @@ Dispon{\'\i}vel em:
 {CERN. \textbf{{The birth of the web}}. 2018.
 Dispon{\'\i}vel em: $<$https://home.cern/topics/birth-web$>$.}
 
-\bibitem[Crockford 2006]{Crockford2006}
-\abntrefinfo{Crockford}{CROCKFORD}{2006}
-{CROCKFORD, D. {The application/json Media Type for JavaScript Object Notation
-  (JSON)}.
-p. 1--10, 2006.
-Dispon{\'\i}vel em: $<$https://tools.ietf.org/pdf/rfc4627.pdf$>$.}
+\bibitem[Corr{\^{e}}a 2017]{Correa2017}
+\abntrefinfo{Corr{\^{e}}a}{CORR{\^{E}}A}{2017}
+{CORR{\^{E}}A, E. \textbf{{JSON Tutorial}}. 2017.
+Dispon{\'\i}vel em: $<$https://www.devmedia.com.br/json-tutorial/25275$>$.}
 
 \bibitem[Developers 2018]{Developers2018}
 \abntrefinfo{Developers}{DEVELOPERS}{2018}
@@ -79,6 +83,12 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   $<$https://usemobile.com.br/aplicativo-nativo-web-hibrido/$>$.}
 
+\bibitem[Menegassi e Endo 2015]{Menegassi2015}
+\abntrefinfo{Menegassi e Endo}{MENEGASSI; ENDO}{2015}
+{MENEGASSI, A.~A.; ENDO, A.~T. {Uma avalia{\c{c}}{\~{a}}o de testes
+  automatizados para aplica{\c{c}}{\~{o}}es m{\'{o}}veis h{\'{i}}bridas}.
+2015.}
+
 \bibitem[Trivago 2018]{Trivago2018}
 \abntrefinfo{Trivago}{TRIVAGO}{2018}
 {TRIVAGO. \textbf{{Trivago}}. 2018.
@@ -94,5 +104,12 @@ Dispon{\'\i}vel em: $<$https://www.w3.org/Style/CSS/Overview.en.html$>$.}
 {W3C. \textbf{{HTML 5.2}}. 2018.
 Dispon{\'\i}vel em:
   $<$https://www.w3.org/TR/html52/introduction.html{\#}scope$>$.}
+
+\bibitem[Wales 2014]{Wales2014}
+\abntrefinfo{Wales}{WALES}{2014}
+{WALES, M. \textbf{{3 Web Dev Careers Decoded: Front-End vs Back-End vs Full
+  Stack}}. 2014.
+Dispon{\'\i}vel em:
+  $<$https://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html$>$.}
 
 \end{thebibliography}

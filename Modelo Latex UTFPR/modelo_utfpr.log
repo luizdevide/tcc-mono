@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  9 MAY 2018 07:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  13 MAY 2018 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,141 +582,152 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 (./Capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
+<./figuras/semCSS.png, id=40, 846.91406pt x 500.62032pt>
+File: ./figuras/semCSS.png Graphic file (type png)
+<use ./figuras/semCSS.png>
+Package pdftex.def Info: ./figuras/semCSS.png  used on input line 13.
+(pdftex.def)             Requested size: 336.9375pt x 199.16928pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+<./figuras/comCSS.png, id=41, 1091.57813pt x 702.37407pt>
+File: ./figuras/comCSS.png Graphic file (type png)
+<use ./figuras/comCSS.png>
+Package pdftex.def Info: ./figuras/comCSS.png  used on input line 24.
+(pdftex.def)             Requested size: 309.53732pt x 199.16928pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [9
 
 
 
-]
-Overfull \hbox (6.3775pt too wide) in paragraph at lines 24--25
+ <./figuras/semCSS.png>]
+Overfull \hbox (13.8982pt too wide) in paragraph at lines 33--34
+[]\OT1/ptm/m/n/12 Existem tr[]es gru-pos de aplica[][]oes mo-veis: aplica[][]oe
+s na-ti-vas, aplica[][]oes \OT1/ptm/m/it/12 Web \OT1/ptm/m/n/12 e aplica[][]oes
+
+ []
+
+[10 <./figuras/comCSS.png>] [11]
+Overfull \hbox (6.3775pt too wide) in paragraph at lines 57--58
 []\OT1/ptm/m/n/12 Semelhante a apli-ca-ti-vos: Ne-cess[]ario que se pare[]a com
  apli-ca-ti-vos na-ti-vos, com intera[][]oes
  []
 
-
-Overfull \hbox (6.70357pt too wide) in paragraph at lines 39--40
-\OT1/ptm/m/n/12 sen-vol-vi-mento da aplica[][]ao. Come[]ando pela res-pon-si-vi
--dade, pois em uma aplica[][]ao SPA(Single
- []
-
-[10] [11]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 113.
+[12]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.00002> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+LaTeX Font Info:    Calculating math sizes for size <10.00002> on input line 86
+.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.00002> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.40005> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.00006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+ [13]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 128.
 
  (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
-LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 113.
-
-Overfull \hbox (49.33542pt too wide) in paragraph at lines 118--119
-[][][][][][][][][][][] 
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.00002> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 128.
+<./figuras/suporteSW.png, id=60, 934.99312pt x 215.30438pt>
+File: ./figuras/suporteSW.png Graphic file (type png)
+<use ./figuras/suporteSW.png>
+Package pdftex.def Info: ./figuras/suporteSW.png  used on input line 147.
+(pdftex.def)             Requested size: 426.79214pt x 142.26558pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 148.
+ [14] [15 <./figuras/suporteSW.png>] [16]
+Overfull \hbox (30.13522pt too wide) in paragraph at lines 253--254
+[][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[12]
-Overfull \hbox (42.13535pt too wide) in paragraph at lines 135--136
-[][][][][][][][][][][][] 
- []
-
-[13]
-Overfull \hbox (63.73557pt too wide) in paragraph at lines 160--161
-[][][][][][][][][][][][][][] 
- []
-
-[14]) [15]
+[17]) [18] [19]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
  (./Capitulos/capitulo3.tex
 Cap\'{\i }tulo 3.
-
-Overfull \hbox (15.81898pt too wide) in paragraph at lines 7--8
-[]\OT1/ptm/m/n/12 Portanto, ire-mos uti-li-zar HTML5, CSS3 e Ja-vaS-cript para 
-o de-sen-vol-vi-mento da aplica[][]ao. 
- []
-
-<./figuras/semCSS.png, id=62, 846.91406pt x 500.62032pt>
-File: ./figuras/semCSS.png Graphic file (type png)
-<use ./figuras/semCSS.png>
-Package pdftex.def Info: ./figuras/semCSS.png  used on input line 14.
-(pdftex.def)             Requested size: 336.9375pt x 199.16928pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-[16
-
-
-
- <./figuras/semCSS.png>]
-<./figuras/comCSS.png, id=67, 1091.57813pt x 702.37407pt>
-File: ./figuras/comCSS.png Graphic file (type png)
-<use ./figuras/comCSS.png>
-Package pdftex.def Info: ./figuras/comCSS.png  used on input line 26.
-(pdftex.def)             Requested size: 309.53732pt x 199.16928pt.
-<./figuras/prototipo.png, id=68, 406.51875pt x 718.93594pt>
+<./figuras/prototipo.png, id=83, 406.51875pt x 718.93594pt>
 File: ./figuras/prototipo.png Graphic file (type png)
 <use ./figuras/prototipo.png>
-Package pdftex.def Info: ./figuras/prototipo.png  used on input line 39.
+Package pdftex.def Info: ./figuras/prototipo.png  used on input line 15.
 (pdftex.def)             Requested size: 128.70538pt x 227.62204pt.
- [17 <./figuras/comCSS.png>] [18 <./figuras/prototipo.png>]
+[20
+
+
+
+ <./figuras/prototipo.png>] [21]
 Cap\'{\i }tulo 4.
-) [19
+) [22
 
 ] (./modelo_utfpr.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+[]\OT1/ptm/m/n/12 ARCHIBALD, J. \OT1/ptm/b/n/12 In-tro-du-cing Back-ground Sync
+\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 []\OT1/ptm/m/n/12 DEVELOPERS, G. \OT1/ptm/b/n/12 Pro-gres-sive Web Apps\OT1/ptm
 /m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 40--44
+Underfull \hbox (badness 2096) in paragraph at lines 44--48
 []\OT1/ptm/m/n/12 ESTAD[]AO, L. \OT1/ptm/b/n/12 Fa-ce-book alcan[]a 2,07 bilh[]
 oes de usu[]arios no mundo\OT1/ptm/m/n/12 . 2017. Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 []\OT1/ptm/m/n/12 FACEBOOK. \OT1/ptm/b/n/12 Cria[][]ao e edi[][]ao de even-tos\
 OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 []\OT1/ptm/m/n/12 GAUNT, M. \OT1/ptm/b/n/12 Ser-vice Wor-kers: uma Introdu[][]a
 o\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 []\OT1/ptm/m/n/12 KINLAN, M. G. P. \OT1/ptm/b/n/12 O ma-ni-festo do apli-ca-tiv
 o web\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 []\OT1/ptm/m/n/12 LIMA, M. \OT1/ptm/b/n/12 Introdu[][]ao aos Pro-gres-sive Web 
 Apps\OT1/ptm/m/n/12 . 2017. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 []\OT1/ptm/m/n/12 W3C. \OT1/ptm/b/n/12 Cas-ca-ding Style She-ets\OT1/ptm/m/n/12
  . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Overfull \hbox (33.00679pt too wide) in paragraph at lines 94--97
+Overfull \hbox (33.00679pt too wide) in paragraph at lines 104--107
 []\OT1/ptm/m/n/12 W3C. \OT1/ptm/b/n/12 HTML 5.2\OT1/ptm/m/n/12 . 2018. Dis-pon[
 ]^^Pvel em: $\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://www.w3.org/TR/html52/
 introduction.html#scope$\OML/ztmcm/m/it/12 >$\OT1/ptm/m/n/12 . 
  []
 
-) 
+[23
+
+
+]) 
 AED: lastpage setting LastPage
-[20
-
-
-]
+[24]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -724,23 +735,23 @@ AED: lastpage setting LastPage
 (./modelo_utfpr.aux (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
 (./Capitulos/capitulo3.aux)) ) 
 Here is how much of TeX's memory you used:
- 6636 strings out of 492982
- 88680 string characters out of 6136225
- 178395 words of memory out of 5000000
- 9976 multiletter control sequences out of 15000+600000
- 35800 words of font info for 82 fonts, out of 8000000 for 9000
+ 6693 strings out of 492982
+ 89745 string characters out of 6136225
+ 182610 words of memory out of 5000000
+ 10029 multiletter control sequences out of 15000+600000
+ 48267 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,45p,588b,1622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,17n,45p,971b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2017/texmf-dist/fonts/enc/dvips/base/
 8r.enc}<d:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d
-:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2017/tex
-mf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb>
-Output written on modelo_utfpr.pdf (21 pages, 601534 bytes).
+:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive
+/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/f
+onts/type1/urw/times/utmbi8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on modelo_utfpr.pdf (25 pages, 637160 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

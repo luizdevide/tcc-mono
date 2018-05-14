@@ -2,33 +2,67 @@
 % CAPÍTULO 2
 \chapter{FUNDAMENTAÇÃO TEÓRICA}  
 
+\section{Conceitos de Desenvolvimento Web}
+O desenvolvimento web pode ser separado em duas partes. A primeira parte sendo a do \textit{front-end}, e a segunda do \textit{back-end}.O \textit{front-end} é a parte na qual o usuário tem acesso, a interface de seu sistema. Nessa camada temos o uso das tecnologias HTML, CSS e JavaScript.  Já o back-end é o que controla as regras de negócio do sistema e o banco de dados. Geralmente programado usando ASP, PHP e Java \cite{Wales2014}. 
+
+O HTML é uma linguagem de marcação, que usa \textit{tags} para definir elementos da página. Dessa forma temos a base da página, porém sem nenhuma estilização, apenas com os elementos e suas definições. 
+
+\begin{figure}[!htb]
+	\centering
+	%begin{measuredfigure}
+	\includegraphics[height=7cm]{./figuras/semCSS.png} \quad
+	\caption{Exemplo de uma pagina apenas com o HTML5}
+	\fonte{Autoria Propria}
+	%end{measuredfigure}
+\end{figure}
+
+É nesse momento em que o CSS3 será utilizado. Ele será o responsável pela estilização da página. Pois através dele podemos alterar fontes, definir cores, e alterar a posição de cada elemento de nossa página. 
+
+\begin{figure}[!h]
+	\centering
+	%begin{measuredfigure}
+	\includegraphics[height=7cm]{./figuras/comCSS.png} \quad
+	\caption{Exemplo de uma pagina com o HTML5 e CSS3}
+	\fonte{Autoria Propria}
+	%end{measuredfigure}
+\end{figure}
+
+O JavaScript é uma linguagem de programação interpretada, permitindo a execução de \textit{scripts} do lado do cliente, sem a necessidade de passar pelo servidor. Esta função se torna muito útil ao se realizar tarefas que apenas interagem com o \textit{front-end}. Será muito importante para a aplicação, pois através de \textit{scripts} será possível fazer a ligação da aplicação com o servidor. Os principais arquivos responsáveis pelo envio do funcionamento da aplicação serão o \textit{manifest.json} e o \textit{Service Worker}. Estes arquivos serão mais detalhados na seções 2.4 e 2.5, respectivamente.
+  
+\section{Aplicações Móveis}
+Existem três grupos de aplicações moveis: aplicações nativas, aplicações \textit{Web} e aplicações híbridas. Aplicações nativas são desenvolvidas para sistemas operacionais específicos, sendo a forma de desenvolvimento definida pela organização proprietária. Através da organização proprietária é fornecido o \textit{Software Development Kit}(SDK),  e uma \textit{Integrated DevelopmentEnvironment}(IDE), possibilitando o desenvolvimento da aplicação para a plataforma. Ao se desenvolver de forma nativa, a aplicação estará disponível na loja de seu respectivo sistema operacional, e o seu desenvolver terá acesso a todas Application Programming Interface(API) do sistema operacional. Porem a desvantagem de seu uso é que a aplicação estará disponível em uma única plataforma, sendo necessário o seu desenvolvimento de outro modo para ser possível o uso em outras plataformas\cite{Menegassi2015}.
+
+Aplicações \textit{Web} são desenvolvidas com recursos \textit{Web}, como HTML, CSS e JavaScript, para executar diretamente no navegador. Podem ter acesso a recursos como geolocalização, armazenamento local \textit{offline} e componentes de \textit{interface}. Apesar de não ficar disponível na loja, tem como principal vantagem a disponibilização para todas plataformas moveis. Como exemplo de aplicação \textit{Web} temos o \textit{Progressive Web App}(PWA), que será melhor detalhado na sessão 2.3 \cite{Menegassi2015}.  
+
+Aplicações híbridas juntam características das aplicações nativas e \textit{Web}, sendo desenvolvida com o uso de HTML, CSS e JavaScript e tendo o suporte das APIs nativas. A aplicação passa ter duas partes, a nativa e a chamada \textit{WebView}, responsável pela parte \textit{Web}. Por se tratar de uma aplicação nativa, ela pode ser disponibilizada na loja da plataforma. 
 \section{PWA}
 
-Dados comparados entre os anos de 2015 e 2016, mostram que o número de downloads de aplicativos móveis diminui em 20\%. Esse fato, somado ao dado de que o usuário gasta 80\% do seu tempo em apenas 5 aplicativos \cite{Lima2017}, mostra que esse é um mercado muito concorrido, e já dominado por grandes empresas.
+Dados comparados entre os anos de 2015 e 2016, mostram que o número de downloads de aplicativos móveis diminui em 20\%. Esse fato, somado ao dado de que o usuário gasta 80\% do seu tempo em apenas cinco aplicativos, que são: Facebook, YouTube, Google Maps, Pandora e Gmail \cite{Lima2017}. Isso torna o mercado hostil para novas aplicações.
 
 Devido a esses números algumas empresas se sentem receosas ao desenvolver uma aplicação. Principalmente se ela for feita de forma nativa, onde será necessário o uso de pelo menos duas equipes de desenvolvimento, uma para sistemas Android, e outra para sistemas iOS. 
 
-Uma aplicação nativa traz algumas desvantagens, como um custo de desenvolvimento maior, e até mesmo uma incerteza sobre a aprovação da mesma em ser publicadas nas principais lojas de aplicativos \cite{DanielMadureira2017}.
+Uma aplicação nativa traz algumas desvantagens, como um custo de desenvolvimento maior, e até mesmo uma incerteza sobre a aprovação da mesma em ser publicadas nas principais lojas de aplicativos, assim como o fato de seu desenvolvimento ser exclusivo de uma plataforma \cite{DanielMadureira2017}.
 
-É nesse momento que surge a opção do PWA, um modelo de desenvolvimento que combina o melhor do web, com o melhor dos aplicativos. Bastando assim apenas o desenvolvimento de tipo web, para ser ter um aplicativo funcional, assim como um site.
+É nesse momento que surge a opção do PWA, um modelo de desenvolvimento \textit{Web}. Bastando assim apenas o desenvolvimento de tipo web, para ser ter um aplicativo funcional, assim como um site.
 
-Mas para ser considerado um PWA, este aplicativo precisa obedecer algumas regras, que são \cite{Justen}:
+Mas para ser considerado um PWA, este aplicativo precisa obedecer algumas regras, que são \cite{Developers2018}:
 
 \begin{enumerate}
-	\item Progressivo: Deve funcionar para todo e qualquer tipo de usuário, independente do navegador utilizado. Um exemplo disso é o site do NY Times, que é um PWA, e funciona em qualquer navegador. 
+	\item Progressivo: Deve funcionar para todo e qualquer tipo de usuário, independente do navegador utilizado.
 	
-	\item Responsive: O layout de sua página deve se comportar de forma funcional, independente do dispositivo usado. Como um celular, tablet, notebook.
+	\item Responsivo: O \textit{layout} da página deve se comportar de forma funcional, independente do dispositivo usado. Como um celular, tablet, notebook.
 	
-	\item Independente de conectividade: Uma aplicação PWA deve ter pelo menos uma funcionalidade disponível de forma offline, e aprimorada para funcionar em redes de baixa qualidade. Um exemplo para isso é um site de notícias, onde mesmo estando offline, o usuário poderia ter acesso as noticias previamente carregas em seu último acesso.
+	\item Independente de conectividade: Uma aplicação PWA deve ter pelo menos uma funcionalidade disponível de forma \textit{offline}, e aprimorada para funcionar em redes de baixa qualidade. Um exemplo para isso é um site de notícias, onde mesmo estando offline, o usuário poderia ter acesso as noticias previamente carregas em seu último acesso.
 	
-	\item Semelhante a aplicativos: Necessário que se pareça com aplicativos nativos, com interações e até emissões de notificações. Isso só será possível pelo fato de ser compilado no modelo shell de aplicativo.
-	\item Atual: Deve-se manter a aplicação sempre atualizada.
+	\item Semelhante a aplicativos: Necessário que se pareça com aplicativos nativos, com interações e até emissões de notificações.
 	
-	\item Seguro: A sua página deve ser no formato HTTPS, mantendo assim a sua segurança.
+	\item Atual: Não é necessário realizar o download de atualizações, o navegador irá atualizar a aplicação de forma automática.
 	
-	\item Descobrível: Em seus manifestos e service worker, deverá ser definido que ele pode ser identificável como um aplicativo, permitindo assim a sua instalação.
+	\item Seguro: A sua página deve ser no formato HTTPS, mantendo assim a sua segurança. Este protocolo é implementado com uma camada a mais em relação ao HTTP, garantindo assim uma maior segurança á página. 
 	
-	\item Reenvolvente: Deve permitir o uso de notificações push.
+	\item Descobrível: Em seus manifestos e \textit{Service Worker}, deverá ser definido que ele pode ser identificável como um aplicativo, permitindo assim a sua instalação. Este assunto será melhor explorado na sessão 2.3.
+	
+	\item Reenvolvente: Deve permitir o uso de notificações push. Permitindo aplicações mandarem notificações para o usuário, tanto na aplicação móvel, tanto na pagina \textit{Web}.
 	
 	\item Instalável: Permite que o usuário instale a aplicação, porém sem ser preciso acessar alguma loja de aplicativos, como a Play Store ou a App Store.
 	
@@ -36,22 +70,17 @@ Mas para ser considerado um PWA, este aplicativo precisa obedecer algumas regras
 	
 \end{enumerate}
 
-Apesar de todas essas regras serem necessárias, algumas delas serão essenciais no desenvolvimento da aplicação. Começando pela responsividade, pois em uma aplicação SPA(Single Page Application), em que o principal foco é um mapa, o modo em que a página é mostrada em diferentes tipos de tela faz uma grande diferença.
+Algumas destas regras terão um enfoque maior no desenvolvimento da aplicação. Como por exemplo o desafio de se ter uma aplicação que é uma \textit{Single Page Application}, isso quer dizer que a \textit{interface} é formada por apenas uma página, responsiva em inúmeros dispositivos. Outro grande foco será a parte de instalação, onde o maior o objetivo é que a aplicação depois de instalada seja igual a uma aplicação nativa.
 
-Outro grande foco será a parte de instalação, onde o maior o objetivo é que a aplicação depois de instalada seja extremamente parecida com uma aplicação nativa.
-
-Para facilitar que esses objetivos sejam alcançados, existirá um arquivo chamado manifest no projeto.
+Para tornar estes objetivos possíveis, e definir a aplicação como um \textit{PWA}, iremos utilizar dois arquivos. O \textit{manifest.json} e o \textit{Service Worker}, que atraves de \textit{scripts} mandará as informações para o navegador.  
 
 
 \section{Manifest}
+Para armazenar e transmitir informações no formato texto,é usado o modelo JSON (\textit{JavaScript Object Notation}), sendo conhecido por sua simplicidade e capacidade de estruturar informações de forma mais compacta\cite{Correa2017}. Modelo responsável por um dos principais arquivos contidos em um \textit{PWA}, o manifest.json. Este arquivo é responsável pelo envio de informações especificas da aplicação para o navegador. 
 
-Um dos principais arquivos existentes em uma aplicação PWA é o manifest.json, pois através dele o seu browser irá reconhecer o site como um PWA e dando assim a opção de instalação para o usuário \cite{Justen}.
+No código 2.1 podemos ver o exemplo de um arquivo manifest.json, e quais suas principais regras \cite{PaulKinlan2018}:
 
-O seu formato de arquivo é um JSON (JavaScript Object Notation), tipo muito usado para a transmissão de texto devido a sua simplicidade e portabilidade em relação ao JavaScript \cite{Crockford2006}.
-
-Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principais regras \cite{PaulKinlan2018}:
-
-\begin{lstlisting}
+\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um arquivo manifest.json}]
 {
 	"name": "PWA Aplication",
 	"short_name": "A-PWA",
@@ -72,7 +101,7 @@ Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principa
 }	
 \end{lstlisting}
 
-\begin{enumerate}
+\begin{itemize}
 	\item name: Esse será o nome da aplicação.
 	
 	\item short-name: O nome que irá aparecer no ícone do aplicativo.
@@ -91,24 +120,44 @@ Abaixo podemos ver um exemplo de um arquivo manifest.json, e quais suas principa
 	
 	\item icons: Define as dimensões da imagem a ser usada com ícone. Essa imagem deve ser do tipo PNG.
 	
-\end{enumerate}
+\end{itemize}
 
 Após a criação do manifest, é necessário o adicionar em seu projeto. Para isso é necessário fazer a sua chamado no head do projeto, utilizando a tag link.
 
+\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo da adição do arquivo manifest}]
+	<head>
+		<link rel="manifest" href="/manifest.json">
+	</head>	
+\end{lstlisting}
+
 
 \section{Service Worker}
-O Service Worker é um arquivo java script, executado de forma paralela ao navegador. Sendo muito utilizado para o tratamento de solicitações de redes e gerenciamento de cache \cite{Gaunt2018}. Desse modo, temos um maior controle da experiência offline que o usuário terá.
+O \textit{Service Worker} é um arquivo JavaScript, executado de forma paralela ao navegador. Sendo muito utilizado para o tratamento de solicitações de redes e gerenciamento de cache \cite{Gaunt2018}. Portanto é através dele que podemos garantir uma experiencia offline para o usuário. Mesmo que de forma imparcial, a aplicação deve continuar funcional. Isso é possível através do uso de cache, que são dados salvos no dispositivo no momento em que havia uma conexão com a Internet. Estes dados podem ser recuperados e mostrados ao usuário enquanto o mesmo estiver offline.
 
-Alguns detalhes são essenciais para se manter o seu funcionamento de forma correta. Como o fato de um Service Worker funcionar como uma thread separada do browser, não conseguindo ter acesso ao DOM(Modelo de Objetos de Documentos). E para evitar uma duplicação do Service Worker é necessário que o arquivo tenha sempre o mesmo nome, e fique sempre no mesmo lugar \cite{Justen}.
+Existem algumas informações importantes sobre o Service Worker\cite{Justen}.
+\begin{itemize}
+	\item Sempre que houver alguma atualização no site, deve-se excluir o cache antigo. Isso evitará que o usuário esteja vendo conteúdo já apresentado.
+	\item O nome, e a localização do arquivo \textit{Service Worker} devem ser sempre iguais, pois caso sejam alterados podem gerar uma duplicação de \textit{Service Worker}.
+	
+\end{itemize}
 
-Com isso em mente, o primeiro passo será verificação de que o navegador utilizado suporta o Service Worker. Atualmente navegadores como Chrome, FireFox e Opera se mostraram bastante receptivos a esta tecnologia. Porém alguns, como o Safari e Edge, não mostraram estar totalmente preparados para ela \cite{Gaunt2018}. 
+\begin{figure}[!ht]
+	\centering
+	%begin{measuredfigure}
+	\includegraphics[height=5cm, width=15cm]{./figuras/suporteSW.png} \quad
+	\caption{Exemplo de navegadores, e suas versões que suportam o \textit{Service Worker}}
+	\fonte{Adaptado de CanIUseIt(2018)}
+	%end{measuredfigure}
+\end{figure}
+
+Com isso em mente, o primeiro passo será verificação de que o navegador utilizado suporta o Service Worker. Atualmente navegadores como Chrome, FireFox e Opera se mostraram bastante receptivos a esta tecnologia. Porém alguns, como o Safari e Edge, não mostraram estar totalmente preparados para ela \cite{Gaunt2018}.
 
 O funcionamento de um Service Worker é realizado através de fases, que se comportam como o ciclo de vida dele. Esse ciclo é formado por 6 eventos, que são:
 
 \begin{itemize}
-	\item Install: Este evento só é chamado na primeira vez em que o Service Worker é registrado, porém caso haja alguma atualização no arquivo, ele será executado novamente.
+	\item Install: Este evento só é chamado na primeira vez em que o \textit{Service Worker} é registrado, porém caso haja alguma atualização no arquivo, ele será executado novamente.
 	
-	\begin{lstlisting}
+	\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um codigo implementando o evento \textit{install}}]
 const staticCacheName = 'luiz-devide-2018-05-08-12-35';
 this.addEventListener('install', event => {
 	this.skipWaiting();
@@ -121,11 +170,11 @@ this.addEventListener('install', event => {
 });
 	\end{lstlisting}
 	
-	Nesse exemplo podemos observar que é atribuído um nome a variável cache, e pra ele é passado o horário em que o site foi gerado. Desse modo teremos a informação de quando o site foi atualizado. Isso permite que o Service Worker atualize o cache.
+	No código 2.3 podemos observar que é atribuído um nome a variável cache, e pra ele é passado o horário em que o site foi gerado. Desse modo teremos a informação de quando o site foi atualizado. Isso permite que o Service Worker atualize o cache. Desse modo sempre será salva no cache a informação mais recente.
 	
 	\item Activate: É executado apenas uma vez quando uma nova versão do Service Worker for instalada, e nenhuma outra versão antiga estiver rodando.
 	
-	\begin{lstlisting}
+	\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um codigo implementando o evento \textit{activate}}]
 this.addEventListener('activate', event => {
   event.waitUntil(
 	  caches.keys().then(cacheNames => {
@@ -143,14 +192,28 @@ this.addEventListener('activate', event => {
 });
 	\end{lstlisting}
 	
-	Um de seus principais que podemos ver na imagem, é o de excluir arquivos antigos. Dessa forma garantimos que nosso usuário nunca estará vendo informações antigas.
+	Uma das principais funções que podemos ver no código 2.4, é o de excluir arquivos antigos. Dessa forma garantimos que nosso usuário nunca estará vendo informações antigas.
 	
 	\item Fetch: Este evento é executado toda vez que a página for requisitada. Sendo um dos principais pela velocidade de carregamento de um conteúdo específico. Pois ele irá verificar se um arquivo já existe na cache, e caso não exista você poderá redirecionar o usuário para uma outra página, podendo ser até offline.
+	
+\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um codigo implementando o evento \textit{fetch}}]
+this.addEventListener("fetch", event => {
+ event.respondWith(
+	 caches.match(event.request)
+		 .then(response => {
+		  	 return response || fetch(event.request);
+		 })
+		 .catch(() => {
+			 return caches.match('/offline/index.html');
+		 })
+ )
+});
+\end{lstlisting}
 	
 	
 	\item Message: Este evento é executado em situações específicas. Geralmente é uma mensagem criado pelo cliente, e lida pelo Service Worker.
 	
-	\begin{lstlisting}
+	\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um codigo implementando o evento \textit{message}}]
 //Enviando a mensagem para o cliente
 client.postMessage({
 	msg: "Exemplo de mensagem",
@@ -165,24 +228,53 @@ client.postMessage({
 	Nesse caso o cliente utilizou um método chamado postMessage() para enviar a mensagem para o Service Worker.
 	
 	\item Sync: Este evento será executado sempre que necessário. Sua principal função será de sincronizar uma página, mesmo que o usuário não tenha internet para isso no momento. Portanto ele ficará tentando fazer o seu carregamento até que a página esteja disponível, e quando isso acontecer poderá ser enviado uma notificação para o usuário. Um exemplo disso, são as publicações offline do facebook. Onde mesmo sem conexão o usuário pode realizar uma postagem. E ao se conectar a uma rede, essa publicação estará online.
+	\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um codigo implementando o evento \textit{sync}}]
+self.addEventListener('sync', function(event) {
+	if (event.tag == 'myFirstSync') 
+		event.waitUntil(doSomeStuff());
+});
+	\end{lstlisting}
 	
-	\item Push: Este evento é executado sempre que uma notificação for solicitada. É através dele que podemos criar notificações, tanto em dispositivos móveis, tanto em sistemas como o próprio Windows.  
+	No código 2.7, o \textit{doSomeStuff()} irá retornar uma \textit{promise} indicando o sucesso ou falha de sua operação \cite{Archibald2018}.
+	
+	\item Push: Este evento é executado sempre que uma notificação for solicitada. É através dele que podemos criar notificações, tanto em dispositivos móveis, tanto em sistemas como o próprio Windows.
+	
+	\begin{lstlisting}[basicstyle=\smaller, caption={Exemplo de um codigo implementando o evento \textit{push}}]
+navigator.serviceWorker.ready
+ .then(function (registration) {
+	registration.pushManager.getSubscription()
+	.then(function (subscription) {
+		if (subscription) 
+			changePushStatus(true);
+		else 
+			changePushStatus(false);
+	})
+	.catch(function (error) {
+		console.error('Error occurred while enabling push ', error);
+	});
+ });
+}
+	\end{lstlisting}
+	
+	No código 2.8 é determinado se o navegador suporta ou não o \textit{push}.  
 \end{itemize}
 
-Desses eventos, teremos três de forma essencial na aplicação. Que são eles: Install, Activate e o Fetch. 
 
 \section{Trabalhos Relacionados}
 
-No momento já existem projetos que compartilham das mesmas ideias deste trabalho, porém apenas em partes. Por esse motivo serão detalhados projetos desenvolvidos com conceitos almejados no desenvolvimento deste projeto. 
+No momento já existem projetos que compartilham das mesmas ideias deste trabalho, porém de formas separadas. Por esse motivo serão detalhados projetos desenvolvidos com conceitos almejados no desenvolvimento deste projeto. 
 
 \subsection{Trivago}
-É uma aplicação para se realizar buscas de hotéis \cite{Trivago2018}. Foi desenvolvida utilizando-se o conceito de PWA. Mantém um conceito bem minimalista, mostrando apenas o que é necessário na tela, algo pretendido com esse projeto.
 
-Sua interface se resume a apenas um menu, para login, e uma barra de busca. Nela é possível digitar o nome de uma cidade, e será mostrado uma lista com os hoteis disponíveis.
+É uma aplicação para se realizar buscas de hotéis \cite{Trivago2018}. Foi desenvolvida utilizando-se o conceito de \textit{PWA}. Mantém um conceito minimalista, mostrando apenas o que é necessário na tela, algo pretendido com esse projeto.
 
-Por se tratar de uma aplicação PWA podemos observar o uso de algumas de suas recomendações. Como por exemplo o fato de a aplicação ser instalável, a responsividade em diferentes tipos de aparelhos, e o uso do https para reforçar a segurança.
+Sua interface se resume a apenas um menu, para login, e uma barra de busca. Nela é possível digitar o nome de uma cidade, e será mostrado uma lista com os hotéis disponíveis.
+
+Por se tratar de uma aplicação \textit{PWA} podemos observar o uso de algumas de suas recomendações. Como por exemplo o fato de a aplicação ser instalável, a responsividade em diferentes tipos de aparelhos, e o uso do https para reforçar a segurança. Características essas que serão aproveitadas no projeto.
+
 
 \subsection{Facebook}
+
 O Facebook é a maior rede social do planeta, tendo atualmente mais de 2,07 bilhões de usuários \cite{Estadao2017}. Apesar de não ser um PWA, ele contém uma característica muito semelhante a do projeto.
 
 Nele é possível realizar a criação de eventos \cite{Facebook2018}. A criação pode representar qualquer tipo de evento, desde um show musical, até um jogo de futebol. Para isso basta entrar com o local onde ele irá acontecer, uma data de inicio e fim, e o horário em que ele irá acontecer.
