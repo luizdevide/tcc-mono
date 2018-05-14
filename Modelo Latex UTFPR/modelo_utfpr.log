@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  13 MAY 2018 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  14 MAY 2018 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,15 +657,21 @@ Cap\'{\i }tulo 3.
 <./figuras/prototipo.png, id=83, 406.51875pt x 718.93594pt>
 File: ./figuras/prototipo.png Graphic file (type png)
 <use ./figuras/prototipo.png>
-Package pdftex.def Info: ./figuras/prototipo.png  used on input line 15.
+Package pdftex.def Info: ./figuras/prototipo.png  used on input line 12.
 (pdftex.def)             Requested size: 128.70538pt x 227.62204pt.
 [20
 
 
 
- <./figuras/prototipo.png>] [21]
+ <./figuras/prototipo.png>]
+<./figuras/cronograma.png, id=88, 650.43pt x 359.84438pt>
+File: ./figuras/cronograma.png Graphic file (type png)
+<use ./figuras/cronograma.png>
+Package pdftex.def Info: ./figuras/cronograma.png  used on input line 56.
+(pdftex.def)             Requested size: 411.45035pt x 227.62204pt.
+ [21] [22 <./figuras/cronograma.png>]
 Cap\'{\i }tulo 4.
-) [22
+) [23
 
 ] (./modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--13
@@ -722,12 +728,12 @@ Overfull \hbox (33.00679pt too wide) in paragraph at lines 104--107
 introduction.html#scope$\OML/ztmcm/m/it/12 >$\OT1/ptm/m/n/12 . 
  []
 
-[23
+[24
 
 
 ]) 
 AED: lastpage setting LastPage
-[24]
+[25]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -735,10 +741,10 @@ AED: lastpage setting LastPage
 (./modelo_utfpr.aux (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
 (./Capitulos/capitulo3.aux)) ) 
 Here is how much of TeX's memory you used:
- 6693 strings out of 492982
- 89745 string characters out of 6136225
+ 6698 strings out of 492982
+ 89874 string characters out of 6136225
  182610 words of memory out of 5000000
- 10029 multiletter control sequences out of 15000+600000
+ 10033 multiletter control sequences out of 15000+600000
  48267 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,17n,45p,971b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -748,10 +754,10 @@ Here is how much of TeX's memory you used:
 /2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (25 pages, 637160 bytes).
+Output written on modelo_utfpr.pdf (26 pages, 650932 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
