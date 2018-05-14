@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  14 MAY 2018 03:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  14 MAY 2018 05:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,19 +570,19 @@ Cap\'{\i }tulo 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 20.
  (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
- [6] [7]) [8]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+) [6]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
 
 (./Capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
-<./figuras/semCSS.png, id=40, 846.91406pt x 500.62032pt>
+<./figuras/semCSS.png, id=34, 846.91406pt x 500.62032pt>
 File: ./figuras/semCSS.png Graphic file (type png)
 <use ./figuras/semCSS.png>
 Package pdftex.def Info: ./figuras/semCSS.png  used on input line 13.
@@ -593,7 +593,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-<./figuras/comCSS.png, id=41, 1091.57813pt x 702.37407pt>
+<./figuras/comCSS.png, id=35, 1091.57813pt x 702.37407pt>
 File: ./figuras/comCSS.png Graphic file (type png)
 <use ./figuras/comCSS.png>
 Package pdftex.def Info: ./figuras/comCSS.png  used on input line 24.
@@ -601,7 +601,7 @@ Package pdftex.def Info: ./figuras/comCSS.png  used on input line 24.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9
+[7
 
 
 
@@ -612,13 +612,13 @@ s na-ti-vas, aplica[][]oes \OT1/ptm/m/it/12 Web \OT1/ptm/m/n/12 e aplica[][]oes
 
  []
 
-[10 <./figuras/comCSS.png>] [11]
+[8 <./figuras/comCSS.png>] [9]
 Overfull \hbox (6.3775pt too wide) in paragraph at lines 57--58
 []\OT1/ptm/m/n/12 Semelhante a apli-ca-ti-vos: Ne-cess[]ario que se pare[]a com
  apli-ca-ti-vos na-ti-vos, com intera[][]oes
  []
 
-[12]
+[10]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.00002> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 LaTeX Font Info:    Calculating math sizes for size <10.00002> on input line 86
@@ -629,7 +629,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.40005> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.00006> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
- [13]
+ [11]
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 128.
 
  (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omlptm.fd
@@ -637,41 +637,41 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.00002> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 128.
-<./figuras/suporteSW.png, id=60, 934.99312pt x 215.30438pt>
+<./figuras/suporteSW.png, id=53, 934.99312pt x 215.30438pt>
 File: ./figuras/suporteSW.png Graphic file (type png)
 <use ./figuras/suporteSW.png>
 Package pdftex.def Info: ./figuras/suporteSW.png  used on input line 147.
 (pdftex.def)             Requested size: 426.79214pt x 142.26558pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 148.
- [14] [15 <./figuras/suporteSW.png>] [16]
+ [12] [13 <./figuras/suporteSW.png>] [14]
 Overfull \hbox (30.13522pt too wide) in paragraph at lines 253--254
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[17]) [18] [19]
+[15]) [16] [17]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
  (./Capitulos/capitulo3.tex
 Cap\'{\i }tulo 3.
-<./figuras/prototipo.png, id=83, 406.51875pt x 718.93594pt>
+<./figuras/prototipo.png, id=76, 406.51875pt x 718.93594pt>
 File: ./figuras/prototipo.png Graphic file (type png)
 <use ./figuras/prototipo.png>
 Package pdftex.def Info: ./figuras/prototipo.png  used on input line 12.
 (pdftex.def)             Requested size: 128.70538pt x 227.62204pt.
-[20
+[18
 
 
 
  <./figuras/prototipo.png>]
-<./figuras/cronograma.png, id=88, 650.43pt x 359.84438pt>
+<./figuras/cronograma.png, id=82, 650.43pt x 359.84438pt>
 File: ./figuras/cronograma.png Graphic file (type png)
 <use ./figuras/cronograma.png>
 Package pdftex.def Info: ./figuras/cronograma.png  used on input line 56.
 (pdftex.def)             Requested size: 411.45035pt x 227.62204pt.
- [21] [22 <./figuras/cronograma.png>]
+ [19] [20 <./figuras/cronograma.png>]
 Cap\'{\i }tulo 4.
-) [23
+) [21
 
 ] (./modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--13
@@ -728,12 +728,12 @@ Overfull \hbox (33.00679pt too wide) in paragraph at lines 104--107
 introduction.html#scope$\OML/ztmcm/m/it/12 >$\OT1/ptm/m/n/12 . 
  []
 
-[24
+[22
 
 
 ]) 
 AED: lastpage setting LastPage
-[25]
+[23]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -741,10 +741,10 @@ AED: lastpage setting LastPage
 (./modelo_utfpr.aux (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
 (./Capitulos/capitulo3.aux)) ) 
 Here is how much of TeX's memory you used:
- 6698 strings out of 492982
- 89874 string characters out of 6136225
+ 6697 strings out of 492982
+ 89866 string characters out of 6136225
  182610 words of memory out of 5000000
- 10033 multiletter control sequences out of 15000+600000
+ 10032 multiletter control sequences out of 15000+600000
  48267 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,17n,45p,971b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -754,10 +754,10 @@ Here is how much of TeX's memory you used:
 /2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (26 pages, 651221 bytes).
+Output written on modelo_utfpr.pdf (24 pages, 646986 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
