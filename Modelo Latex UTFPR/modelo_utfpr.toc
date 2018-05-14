@@ -1,11 +1,12 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}\MakeUppercase {contexto}}{5}
+\contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c c\~ao}}{5}
 \contentsline {section}{\numberline {1.1}\MakeUppercase {Delimita\c c\~ao do Tema}}{6}
 \contentsline {section}{\numberline {1.2}\MakeUppercase {Problema}}{7}
-\contentsline {section}{\numberline {1.3}\MakeUppercase {Objetivos}}{7}
-\contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{7}
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'ificos}{7}
-\contentsline {section}{\numberline {1.4}\MakeUppercase {Organiza\c c\~ao do Texto}}{8}
+\contentsline {section}{\numberline {1.3}\MakeUppercase {Justificativa}}{7}
+\contentsline {section}{\numberline {1.4}\MakeUppercase {Objetivos}}{7}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo Geral}{7}
+\contentsline {subsection}{\numberline {1.4.2}Objetivos Espec\'ificos}{8}
+\contentsline {section}{\numberline {1.5}\MakeUppercase {Organiza\c c\~ao do Texto}}{8}
 \contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{9}
 \contentsline {section}{\numberline {2.1}\MakeUppercase {Conceitos de Desenvolvimento Web}}{9}
 \contentsline {section}{\numberline {2.2}\MakeUppercase {Aplica\c c\~oes M\'oveis}}{10}
