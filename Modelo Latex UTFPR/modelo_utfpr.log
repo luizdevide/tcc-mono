@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  14 MAY 2018 05:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  15 MAY 2018 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,12 +570,12 @@ Cap\'{\i }tulo 1.
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 19.
  (d:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
 ) [6]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
@@ -598,9 +598,6 @@ File: ./figuras/comCSS.png Graphic file (type png)
 <use ./figuras/comCSS.png>
 Package pdftex.def Info: ./figuras/comCSS.png  used on input line 24.
 (pdftex.def)             Requested size: 309.53732pt x 199.16928pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [7
 
 
@@ -680,49 +677,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
 []\OT1/ptm/m/n/12 DEVELOPERS, G. \OT1/ptm/b/n/12 Pro-gres-sive Web Apps\OT1/ptm
 /m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 44--48
+Underfull \hbox (badness 2096) in paragraph at lines 38--42
 []\OT1/ptm/m/n/12 ESTAD[]AO, L. \OT1/ptm/b/n/12 Fa-ce-book alcan[]a 2,07 bilh[]
 oes de usu[]arios no mundo\OT1/ptm/m/n/12 . 2017. Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 []\OT1/ptm/m/n/12 FACEBOOK. \OT1/ptm/b/n/12 Cria[][]ao e edi[][]ao de even-tos\
 OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 []\OT1/ptm/m/n/12 GAUNT, M. \OT1/ptm/b/n/12 Ser-vice Wor-kers: uma Introdu[][]a
 o\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--72
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 []\OT1/ptm/m/n/12 KINLAN, M. G. P. \OT1/ptm/b/n/12 O ma-ni-festo do apli-ca-tiv
 o web\OT1/ptm/m/n/12 . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 []\OT1/ptm/m/n/12 LIMA, M. \OT1/ptm/b/n/12 Introdu[][]ao aos Pro-gres-sive Web 
 Apps\OT1/ptm/m/n/12 . 2017. Dis-pon[]^^Pvel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 []\OT1/ptm/m/n/12 W3C. \OT1/ptm/b/n/12 Cas-ca-ding Style She-ets\OT1/ptm/m/n/12
  . 2018. Dis-pon[]^^Pvel em:
  []
 
 
-Overfull \hbox (33.00679pt too wide) in paragraph at lines 104--107
+Overfull \hbox (33.00679pt too wide) in paragraph at lines 106--109
 []\OT1/ptm/m/n/12 W3C. \OT1/ptm/b/n/12 HTML 5.2\OT1/ptm/m/n/12 . 2018. Dis-pon[
 ]^^Pvel em: $\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://www.w3.org/TR/html52/
 introduction.html#scope$\OML/ztmcm/m/it/12 >$\OT1/ptm/m/n/12 . 
@@ -742,8 +739,8 @@ AED: lastpage setting LastPage
 (./Capitulos/capitulo3.aux)) ) 
 Here is how much of TeX's memory you used:
  6697 strings out of 492982
- 89866 string characters out of 6136225
- 182610 words of memory out of 5000000
+ 89816 string characters out of 6136225
+ 182681 words of memory out of 5000000
  10032 multiletter control sequences out of 15000+600000
  48267 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -754,7 +751,7 @@ Here is how much of TeX's memory you used:
 /2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (24 pages, 646986 bytes).
+Output written on modelo_utfpr.pdf (24 pages, 647114 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream

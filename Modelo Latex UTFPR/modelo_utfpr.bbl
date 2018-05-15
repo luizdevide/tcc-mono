@@ -11,22 +11,11 @@
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/web/updates/2015/12/background-sync$>$.}
 
-\bibitem[Berners-Lee 1996]{Berners-Lee1996}
-\abntrefinfo{Berners-Lee}{BERNERS-LEE}{1996}
-{BERNERS-LEE, T. \textbf{{The World Wide Web: Past, Present and Future}}. 1996.
-Dispon{\'\i}vel em: $<$https://www.w3.org/People/Berners-Lee/1996/ppf.html$>$.}
-
-\bibitem[Brasil 2017]{Brasil2017}
-\abntrefinfo{Brasil}{BRASIL}{2017}
-{BRASIL, G. do. \textbf{{Ensino superior tem 8,05 milh{\~{o}}es de alunos
-  matriculados em 2016}}. 2017.
-Dispon{\'\i}vel em:
-  $<$http://www.brasil.gov.br/educacao/2017/08/ensino-superior-tem-8-05-milhoes-de-alunos-matriculados-em-2016$>$.}
-
-\bibitem[CERN 2018]{CERN2018}
-\abntrefinfo{CERN}{CERN}{2018}
-{CERN. \textbf{{The birth of the web}}. 2018.
-Dispon{\'\i}vel em: $<$https://home.cern/topics/birth-web$>$.}
+\bibitem[Boushehrinejadmoradi et al. 2015]{7372032}
+\abntrefinfo{Boushehrinejadmoradi et al.}{BOUSHEHRINEJADMORADI et al.}{2015}
+{BOUSHEHRINEJADMORADI, N. et al. Testing cross-platform mobile app development
+  frameworks (t). In:  \textbf{2015 30th IEEE/ACM International Conference on
+  Automated Software Engineering (ASE)}. [S.l.: s.n.], 2015. p. 441--451.}
 
 \bibitem[Corr{\^{e}}a 2017]{Correa2017}
 \abntrefinfo{Corr{\^{e}}a}{CORR{\^{E}}A}{2017}
@@ -38,6 +27,11 @@ Dispon{\'\i}vel em: $<$https://www.devmedia.com.br/json-tutorial/25275$>$.}
 {DEVELOPERS, G. \textbf{{Progressive Web Apps}}. 2018.
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/web/progressive-web-apps/$>$.}
+
+\bibitem[ECMA 2018]{ECMA2018}
+\abntrefinfo{ECMA}{ECMA}{2018}
+{ECMA. \textbf{{ECMA}}. 2018.
+Dispon{\'\i}vel em: $<$http://www.ecma-international.org/$>$.}
 
 \bibitem[Estad{\~{a}}o 2017]{Estadao2017}
 \abntrefinfo{Estad{\~{a}}o}{ESTAD{\~{A}}O}{2017}
@@ -51,6 +45,14 @@ Dispon{\'\i}vel em:
 {FACEBOOK. \textbf{{Cria{\c{c}}{\~{a}}o e edi{\c{c}}{\~{a}}o de eventos}}.
   2018.
 Dispon{\'\i}vel em: $<$https://www.facebook.com/help/131325477007622/$>$.}
+
+\bibitem[FIOR e MERCURI 2009]{FIOR2009}
+\abntrefinfo{FIOR e MERCURI}{FIOR; MERCURI}{2009}
+{FIOR, C.; MERCURI, E. {Forma{\c{c}}{\~{a}}o universit{\'{a}}ria e
+  flexibilidade curricular : import{\^{a}}ncia das atividades
+  obrigat{\'{o}}rias e n{\~{a}}o obrigat{\'{o}}rias Camila Alves Fior}.
+\textbf{Psic. da Ed}, p. 191--215, 2009.
+ISSN 1414-6975.}
 
 \bibitem[Gaunt 2018]{Gaunt2018}
 \abntrefinfo{Gaunt}{GAUNT}{2018}

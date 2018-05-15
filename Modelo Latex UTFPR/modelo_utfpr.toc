@@ -1,10 +1,9 @@
 \babel@toc {brazil}{}
 \contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c c\~ao}}{5}
-\contentsline {section}{\numberline {1.1}\MakeUppercase {Motivacional}}{5}
-\contentsline {section}{\numberline {1.2}\MakeUppercase {Objetivos}}{6}
-\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{6}
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\'ificos}{6}
-\contentsline {section}{\numberline {1.3}\MakeUppercase {Organiza\c c\~ao do Texto}}{6}
+\contentsline {section}{\numberline {1.1}\MakeUppercase {Objetivos}}{6}
+\contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{6}
+\contentsline {subsection}{\numberline {1.1.2}Objetivos Espec\'ificos}{6}
+\contentsline {section}{\numberline {1.2}\MakeUppercase {Organiza\c c\~ao do Texto}}{6}
 \contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{7}
 \contentsline {section}{\numberline {2.1}\MakeUppercase {Conceitos de Desenvolvimento Web}}{7}
 \contentsline {section}{\numberline {2.2}\MakeUppercase {Aplica\c c\~oes M\'oveis}}{8}

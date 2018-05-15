@@ -3,7 +3,7 @@
 \chapter{FUNDAMENTAÇÃO TEÓRICA}  
 
 \section{Conceitos de Desenvolvimento Web}
-O desenvolvimento web pode ser separado em duas partes. A primeira parte sendo a do \textit{front-end}, e a segunda do \textit{back-end}.O \textit{front-end} é a parte na qual o usuário tem acesso, a interface de seu sistema. Nessa camada temos o uso das tecnologias HTML, CSS e JavaScript.  Já o back-end é o que controla as regras de negócio do sistema e o banco de dados. Geralmente programado usando ASP, PHP e Java \cite{Wales2014}. 
+O desenvolvimento web pode ser separado em duas partes. A primeira parte sendo a do \textit{front-end}, e a segunda do \textit{back-end}.O \textit{front-end} é a parte na qual o usuário tem acesso, a interface de seu sistema. Nessa camada temos o uso das tecnologias HTML \cite{W3C2018}, CSS \cite{W3C20182} e JavaScript \cite{ECMA2018}.  Já o back-end é o que controla as regras de negócio do sistema e o banco de dados. Geralmente programado usando ASP, PHP e Java \cite{Wales2014}. 
 
 O HTML é uma linguagem de marcação, que usa \textit{tags} para definir elementos da página. Dessa forma temos a base da página, porém sem nenhuma estilização, apenas com os elementos e suas definições. 
 
@@ -16,7 +16,7 @@ O HTML é uma linguagem de marcação, que usa \textit{tags} para definir elementos
 	%end{measuredfigure}
 \end{figure}
 
-É nesse momento em que o CSS3 será utilizado. Ele será o responsável pela estilização da página. Pois através dele podemos alterar fontes, definir cores, e alterar a posição de cada elemento de nossa página. 
+Com a utilização do CSS será possível estilizar a página HTML, melhorando assim a experiencia do usuário. Pois através dele podemos alterar fontes, definir cores, e alterar a posição de cada elemento de nossa página. 
 
 \begin{figure}[!h]
 	\centering
@@ -34,7 +34,7 @@ Existem três grupos de aplicações moveis: aplicações nativas, aplicações \textit
 
 Aplicações \textit{Web} são desenvolvidas com recursos \textit{Web}, como HTML, CSS e JavaScript, para executar diretamente no navegador. Podem ter acesso a recursos como geolocalização, armazenamento local \textit{offline} e componentes de \textit{interface}. Apesar de não ficar disponível na loja, tem como principal vantagem a disponibilização para todas plataformas moveis. Como exemplo de aplicação \textit{Web} temos o \textit{Progressive Web App}(PWA), que será melhor detalhado na sessão 2.3 \cite{Menegassi2015}.  
 
-Aplicações híbridas juntam características das aplicações nativas e \textit{Web}, sendo desenvolvida com o uso de HTML, CSS e JavaScript e tendo o suporte das APIs nativas. A aplicação passa ter duas partes, a nativa e a chamada \textit{WebView}, responsável pela parte \textit{Web}. Por se tratar de uma aplicação nativa, ela pode ser disponibilizada na loja da plataforma. 
+Aplicações híbridas juntam características das aplicações nativas e \textit{Web}, sendo desenvolvida com o uso de HTML, CSS e JavaScript e tendo o suporte das APIs nativas. A aplicação passa ter duas partes, a nativa e a chamada \textit{WebView}, responsável pela parte \textit{Web}. Por se tratar de uma aplicação nativa, ela pode ser disponibilizada na loja da plataforma\cite{Menegassi2015}. 
 \section{PWA}
 
 Dados comparados entre os anos de 2015 e 2016, mostram que o número de downloads de aplicativos móveis diminui em 20\%. Esse fato, somado ao dado de que o usuário gasta 80\% do seu tempo em apenas cinco aplicativos, que são: Facebook, YouTube, Google Maps, Pandora e Gmail \cite{Lima2017}. Isso torna o mercado hostil para novas aplicações.
@@ -150,7 +150,7 @@ Existem algumas informações importantes sobre o Service Worker\cite{Justen}.
 	%end{measuredfigure}
 \end{figure}
 
-Com isso em mente, o primeiro passo será verificação de que o navegador utilizado suporta o Service Worker. Atualmente navegadores como Chrome, FireFox e Opera se mostraram bastante receptivos a esta tecnologia. Porém alguns, como o Safari e Edge, não mostraram estar totalmente preparados para ela \cite{Gaunt2018}.
+O primeiro passo será verificação de que o navegador utilizado suporta o Service Worker. Atualmente navegadores como Chrome, FireFox e Opera se mostraram bastante receptivos a esta tecnologia. Porém alguns, como o Safari e Edge, não mostraram estar totalmente preparados para ela \cite{Gaunt2018}.
 
 O funcionamento de um Service Worker é realizado através de fases, que se comportam como o ciclo de vida dele. Esse ciclo é formado por 6 eventos, que são:
 
