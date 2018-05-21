@@ -19,6 +19,10 @@ Repeated entry---line 153 of file ./Referencias/reflatex.bib
  : @misc{Developers2018
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 233 of file ./Referencias/reflatex.bib
+ : @misc{Facebook2018
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "abnt-etal-list=99"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,45 +35,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 21 entries,
+You've used 28 entries,
             6523 wiz_defined-function locations,
-            1267 strings with 12047 characters,
-and the built_in function-call counts, 13010 in all, are:
-= -- 1124
-> -- 332
-< -- 4
-+ -- 161
-- -- 109
-* -- 783
-:= -- 1835
-add.period$ -- 72
-call.type$ -- 23
-change.case$ -- 135
-chr.to.int$ -- 26
-cite$ -- 18
-duplicate$ -- 514
-empty$ -- 1217
-format.name$ -- 500
-if$ -- 3193
+            1307 strings with 13142 characters,
+and the built_in function-call counts, 17716 in all, are:
+= -- 1479
+> -- 465
+< -- 9
++ -- 207
+- -- 151
+* -- 1091
+:= -- 2484
+add.period$ -- 100
+call.type$ -- 30
+change.case$ -- 186
+chr.to.int$ -- 36
+cite$ -- 25
+duplicate$ -- 732
+empty$ -- 1645
+format.name$ -- 699
+if$ -- 4334
 int.to.chr$ -- 3
 int.to.str$ -- 2
-missing$ -- 310
-newline$ -- 98
-num.names$ -- 90
-pop$ -- 406
+missing$ -- 421
+newline$ -- 132
+num.names$ -- 125
+pop$ -- 549
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 90
 quote$ -- 0
-skip$ -- 935
+skip$ -- 1219
 stack$ -- 1
-substring$ -- 489
-swap$ -- 181
-text.length$ -- 2
+substring$ -- 688
+swap$ -- 276
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1
+type$ -- 2
 warning$ -- 0
-while$ -- 115
+while$ -- 162
 width$ -- 0
-write$ -- 263
-(There was 1 error message)
+write$ -- 366
+(There were 2 error messages)

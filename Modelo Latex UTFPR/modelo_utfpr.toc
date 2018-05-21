@@ -1,18 +1,18 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c c\~ao}}{5}
-\contentsline {section}{\numberline {1.1}\MakeUppercase {Objetivos}}{6}
-\contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{6}
-\contentsline {subsection}{\numberline {1.1.2}Objetivos Espec\'ificos}{6}
-\contentsline {section}{\numberline {1.2}\MakeUppercase {Organiza\c c\~ao do Texto}}{6}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{7}
-\contentsline {section}{\numberline {2.1}\MakeUppercase {Conceitos de Desenvolvimento Web}}{7}
-\contentsline {section}{\numberline {2.2}\MakeUppercase {Aplica\c c\~oes M\'oveis}}{8}
-\contentsline {section}{\numberline {2.3}\MakeUppercase {PWA}}{9}
-\contentsline {section}{\numberline {2.4}\MakeUppercase {Manifest}}{11}
-\contentsline {section}{\numberline {2.5}\MakeUppercase {Service Worker}}{12}
-\contentsline {section}{\numberline {2.6}\MakeUppercase {Trabalhos Relacionados}}{16}
-\contentsline {subsection}{\numberline {2.6.1}Trivago}{16}
-\contentsline {subsection}{\numberline {2.6.2}Facebook}{16}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Proposta}}{18}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Conclus\~ao}}{21}
-\contentsline {chapter}{REFER\^ENCIAS}{22}
+\contentsline {chapter}{\numberline {1}\MakeUppercase {Introdu\c c\~ao}}{4}
+\contentsline {section}{\numberline {1.1}\MakeUppercase {Objetivos}}{4}
+\contentsline {subsection}{\numberline {1.1.1}Objetivos Espec\'ificos}{5}
+\contentsline {section}{\numberline {1.2}\MakeUppercase {Organiza\c c\~ao do Texto}}{5}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{6}
+\contentsline {section}{\numberline {2.1}\MakeUppercase {Conceitos de Desenvolvimento Web}}{6}
+\contentsline {section}{\numberline {2.2}\MakeUppercase {Aplica\c c\~oes M\'oveis}}{7}
+\contentsline {section}{\numberline {2.3}\MakeUppercase {PWA}}{8}
+\contentsline {section}{\numberline {2.4}\MakeUppercase {Manifest}}{9}
+\contentsline {section}{\numberline {2.5}\MakeUppercase {Service Worker}}{11}
+\contentsline {section}{\numberline {2.6}\MakeUppercase {Trabalhos Relacionados}}{14}
+\contentsline {subsection}{\numberline {2.6.1}Flipkart}{15}
+\contentsline {subsection}{\numberline {2.6.2}Trivago}{15}
+\contentsline {subsection}{\numberline {2.6.3}Facebook}{15}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Proposta}}{17}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Conclus\~ao}}{20}
+\contentsline {chapter}{REFER\^ENCIAS}{21}

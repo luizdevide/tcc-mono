@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.52 }
 
+\bibitem[Analytics 2018]{Analytics2018}
+\abntrefinfo{Analytics}{ANALYTICS}{2018}
+{ANALYTICS, G. \textbf{{Acompanhamento de aplicativo de p{\'{a}}gina
+  {\'{u}}nica}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications?hl=pt-br$>$.}
+
 \bibitem[Archibald 2018]{Archibald2018}
 \abntrefinfo{Archibald}{ARCHIBALD}{2018}
 {ARCHIBALD, J. \textbf{{Introducing Background Sync}}. 2018.
@@ -21,6 +28,13 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Corr{\^{e}}a}{CORR{\^{E}}A}{2017}
 {CORR{\^{E}}A, E. \textbf{{JSON Tutorial}}. 2017.
 Dispon{\'\i}vel em: $<$https://www.devmedia.com.br/json-tutorial/25275$>$.}
+
+\bibitem[Developers 2016]{Developers2016}
+\abntrefinfo{Developers}{DEVELOPERS}{2016}
+{DEVELOPERS, G. \textbf{{Flipkart triples time-on-site with Progressive Web
+  App}}. 2016.
+Dispon{\'\i}vel em:
+  $<$https://developers.google.com/web/showcase/2016/flipkart$>$.}
 
 \bibitem[Developers 2018]{Developers2018}
 \abntrefinfo{Developers}{DEVELOPERS}{2018}
@@ -60,6 +74,18 @@ ISSN 1414-6975.}
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/web/fundamentals/primers/service-workers/?hl=pt-br$>$.}
 
+\bibitem[IBM 2018]{IBM2018}
+\abntrefinfo{IBM}{IBM}{2018}
+{IBM. \textbf{{Mobile approaches: Native, web or hybrid mobile application
+  development}}. 2018.}
+
+\bibitem[Jouppi 1990]{134547}
+\abntrefinfo{Jouppi}{JOUPPI}{1990}
+{JOUPPI, N.~P. Improving direct-mapped cache performance by the addition of a
+  small fully-associative cache and prefetch buffers. In:  \textbf{[1990]
+  Proceedings. The 17th Annual International Symposium on Computer
+  Architecture}. [S.l.: s.n.], 1990. p. 364--373.}
+
 \bibitem[Justen 2017]{Justen}
 \abntrefinfo{Justen}{JUSTEN}{2017}
 {JUSTEN, W. \textbf{{Como fazer seu site funcionar offline com PWA}}. 2017.
@@ -91,10 +117,29 @@ Dispon{\'\i}vel em:
   automatizados para aplica{\c{c}}{\~{o}}es m{\'{o}}veis h{\'{i}}bridas}.
 2015.}
 
+\bibitem[Mohammad et al. 2010]{Mohammad2010}
+\abntrefinfo{Mohammad et al.}{MOHAMMAD et al.}{2010}
+{MOHAMMAD, N.; MUNASSAR, A.; GOVARDHAN, A. {A Comparison Between Five Models Of
+  Software Engineering}.
+\textbf{International Journal of Computer Science Issues}, v.~7, n.~5, p. 94 --
+  101, 2010.
+ISSN 09736107.}
+
 \bibitem[Trivago 2018]{Trivago2018}
 \abntrefinfo{Trivago}{TRIVAGO}{2018}
 {TRIVAGO. \textbf{{Trivago}}. 2018.
 Dispon{\'\i}vel em: $<$https://www.trivago.com.br/$>$.}
+
+\bibitem[UFF 2018]{UFF2018}
+\abntrefinfo{UFF}{UFF}{2018}
+{UFF. \textbf{{Como divulgar os eventos da minha unidade?}} 2018.
+Dispon{\'\i}vel em:
+  $<$http://www.uff.br/?q=faq/como-divulgar-os-eventos-da-minha-unidade$>$.}
+
+\bibitem[Use 2018]{Use2018}
+\abntrefinfo{Use}{USE}{2018}
+{USE, C.~I. \textbf{{Service Workers}}. 2018.
+Dispon{\'\i}vel em: $<$https://caniuse.com/{\#}feat=serviceworkers$>$.}
 
 \bibitem[W3C 2018]{W3C20182}
 \abntrefinfo{W3C}{W3C}{2018a}
