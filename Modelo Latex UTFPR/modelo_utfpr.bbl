@@ -12,17 +12,16 @@
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications?hl=pt-br$>$.}
 
+\bibitem[Apple 2018]{Apple2018}
+\abntrefinfo{Apple}{APPLE}{2018}
+{APPLE. \textbf{{App Store}}. 2018.
+Dispon{\'\i}vel em: $<$https://www.apple.com/br/ios/app-store/$>$.}
+
 \bibitem[Archibald 2018]{Archibald2018}
 \abntrefinfo{Archibald}{ARCHIBALD}{2018}
 {ARCHIBALD, J. \textbf{{Introducing Background Sync}}. 2018.
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/web/updates/2015/12/background-sync$>$.}
-
-\bibitem[Boushehrinejadmoradi et al. 2015]{7372032}
-\abntrefinfo{Boushehrinejadmoradi et al.}{BOUSHEHRINEJADMORADI et al.}{2015}
-{BOUSHEHRINEJADMORADI, N. et al. Testing cross-platform mobile app development
-  frameworks (t). In:  \textbf{2015 30th IEEE/ACM International Conference on
-  Automated Software Engineering (ASE)}. [S.l.: s.n.], 2015. p. 441--451.}
 
 \bibitem[Corr{\^{e}}a 2017]{Correa2017}
 \abntrefinfo{Corr{\^{e}}a}{CORR{\^{E}}A}{2017}
@@ -47,13 +46,6 @@ Dispon{\'\i}vel em:
 {ECMA. \textbf{{ECMA}}. 2018.
 Dispon{\'\i}vel em: $<$http://www.ecma-international.org/$>$.}
 
-\bibitem[Estad{\~{a}}o 2017]{Estadao2017}
-\abntrefinfo{Estad{\~{a}}o}{ESTAD{\~{A}}O}{2017}
-{ESTAD{\~{A}}O, L. \textbf{{Facebook alcan{\c{c}}a 2,07 bilh{\~{o}}es de
-  usu{\'{a}}rios no mundo}}. 2017.
-Dispon{\'\i}vel em:
-  $<$http://link.estadao.com.br/noticias/empresas,facebook-alcanca-2-07-bilhoes-de-usuarios-no-mundo,70002069551$>$.}
-
 \bibitem[Facebook 2018]{Facebook2018}
 \abntrefinfo{Facebook}{FACEBOOK}{2018}
 {FACEBOOK. \textbf{{Cria{\c{c}}{\~{a}}o e edi{\c{c}}{\~{a}}o de eventos}}.
@@ -73,6 +65,16 @@ ISSN 1414-6975.}
 {GAUNT, M. \textbf{{Service Workers: uma Introdu{\c{c}}{\~{a}}o}}. 2018.
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/web/fundamentals/primers/service-workers/?hl=pt-br$>$.}
+
+\bibitem[Google 2018]{Google2018}
+\abntrefinfo{Google}{GOOGLE}{2018}
+{GOOGLE. \textbf{{Play Store}}. 2018.
+Dispon{\'\i}vel em: $<$https://play.google.com/store?hl=pt$>$.}
+
+\bibitem[Hootsuite 2018]{Hootsuite2018}
+\abntrefinfo{Hootsuite}{HOOTSUITE}{2018}
+{HOOTSUITE. \textbf{{Active users of key global social platforms}}. 2018.
+Dispon{\'\i}vel em: $<$https://hootsuite.com/pt/$>$.}
 
 \bibitem[IBM 2018]{IBM2018}
 \abntrefinfo{IBM}{IBM}{2018}
@@ -98,18 +100,10 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   $<$https://developers.google.com/web/fundamentals/web-app-manifest/?hl=pt-br$>$.}
 
-\bibitem[Lima 2017]{Lima2017}
-\abntrefinfo{Lima}{LIMA}{2017}
-{LIMA, M. \textbf{{Introdu{\c{c}}{\~{a}}o aos Progressive Web Apps}}. 2017.
-Dispon{\'\i}vel em:
-  $<$https://tableless.com.br/introducao-aos-progressive-web-apps/$>$.}
-
-\bibitem[Madureira 2017]{DanielMadureira2017}
-\abntrefinfo{Madureira}{MADUREIRA}{2017}
-{MADUREIRA, D. \textbf{{Aplicativo nativo, web App ou aplicativo
-  h{\'{i}}brido?}} 2017.
-Dispon{\'\i}vel em:
-  $<$https://usemobile.com.br/aplicativo-nativo-web-hibrido/$>$.}
+\bibitem[Lite 2015]{Lite2015}
+\abntrefinfo{Lite}{LITE}{2015}
+{LITE, D.~F. {New Progressive Web App helps Flipkart boost conversions 70{\%}}.
+2015.}
 
 \bibitem[Menegassi e Endo 2015]{Menegassi2015}
 \abntrefinfo{Menegassi e Endo}{MENEGASSI; ENDO}{2015}
@@ -117,13 +111,16 @@ Dispon{\'\i}vel em:
   automatizados para aplica{\c{c}}{\~{o}}es m{\'{o}}veis h{\'{i}}bridas}.
 2015.}
 
-\bibitem[Mohammad et al. 2010]{Mohammad2010}
-\abntrefinfo{Mohammad et al.}{MOHAMMAD et al.}{2010}
-{MOHAMMAD, N.; MUNASSAR, A.; GOVARDHAN, A. {A Comparison Between Five Models Of
-  Software Engineering}.
-\textbf{International Journal of Computer Science Issues}, v.~7, n.~5, p. 94 --
-  101, 2010.
-ISSN 09736107.}
+\bibitem[MicrosoftBlog 2018]{MicrosoftBlog2018}
+\abntrefinfo{MicrosoftBlog}{MICROSOFTBLOG}{2018}
+{MICROSOFTBLOG. \textbf{{iOS da Apple ganha suporte aos PWA}}. 2018.
+Dispon{\'\i}vel em:
+  $<$https://www.windowsteam.com.br/ios-da-apple-ganha-suporte-aos-pwa/$>$.}
+
+\bibitem[Sommerville 2003]{Sommerville2003}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2003}
+{SOMMERVILLE, I. \textbf{{Engenharia de Software}}. [S.l.: s.n.], 2003. 1--6~p.
+ISBN 9788579361081.}
 
 \bibitem[Trivago 2018]{Trivago2018}
 \abntrefinfo{Trivago}{TRIVAGO}{2018}
@@ -158,5 +155,12 @@ Dispon{\'\i}vel em:
   Stack}}. 2014.
 Dispon{\'\i}vel em:
   $<$https://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html$>$.}
+
+\bibitem[Xavier 2017]{Xavier2017}
+\abntrefinfo{Xavier}{XAVIER}{2017}
+{XAVIER, L. \textbf{{Vamos falar sobre os Progressive Web Apps, os PWAS?}}
+  2017.
+Dispon{\'\i}vel em:
+  $<$http://www.proxxima.com.br/home/proxxima/how-to/2017/07/05/vamos-falar-sobre-os-progressive-web-apps-os-pwas.html$>$.}
 
 \end{thebibliography}
