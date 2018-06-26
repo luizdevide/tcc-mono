@@ -6,7 +6,7 @@ Neste capítulo será apresentado detalhes e funcionamento esperado para a ferrame
 
 \section{Aplicação}
 
-O primeiro passo do desenvolvimento será construir o \textit{front-end} da aplicação, que se trata da \textit{interface} do sistema. Por se tratar de um \textit{Single Page Application} (SPA), a sua construção será bem minimalista. Contendo apenas um campo de busca, um menu de opções, um botão para adicionar um evento, tudo isso sobre o \textit{layout} do mapa. Um protótipo de tela com o exemplo desta página pode ser visto na figura 8.
+O primeiro passo do desenvolvimento será construir o \textit{front-end} da aplicação, que se trata da \textit{interface} do sistema. Por se tratar de um \textit{Single Page Application} (SPA), a sua construção será bem minimalista. Contendo apenas um campo de busca, um menu de opções, um botão para adicionar um evento, tudo isso sobre o \textit{layout} do mapa. Um protótipo de tela com o exemplo desta página pode ser visto na figura 9.
 
 \begin{figure}[!ht]
 	\centering
@@ -17,7 +17,7 @@ O primeiro passo do desenvolvimento será construir o \textit{front-end} da aplic
 	%end{measuredfigure}
 \end{figure}
 
-Este mapa será formado utilizando a \textit{API} do Google Maps. No menu de opções será possível realizar o \textit{login} e o \textit{logout} do usuário, alem do gerenciamento de eventos já criados. A criação dos eventos será possível através do botão adicionar. Para completar a criação o usuário deverá fornecer o local ou em que sala ele irá ocorrer, o horário e a duração do mesmo. O exemplo do \textit{layout} do menu pode ser visto na imagem 9, e o cadastro de eventos na imagem 10.
+Este mapa será formado utilizando a \textit{API} do Google Maps. No menu de opções será possível realizar o \textit{login} e o \textit{logout} do usuário, além do gerenciamento de eventos já criados. A criação dos eventos será possível através do botão adicionar. Para completar a criação o usuário deverá fornecer o local ou em que sala ele irá ocorrer, o horário e a duração do mesmo. O exemplo do \textit{layout} do menu pode ser visto na imagem 10, e o cadastro de eventos na imagem 11.
 
 \begin{figure}[!ht]
 	\centering
@@ -37,7 +37,7 @@ Este mapa será formado utilizando a \textit{API} do Google Maps. No menu de opçõ
 	%end{measuredfigure}
 \end{figure}
 
-Na segunda etapa será implementado o campo de busca, com ele será possível procurar locais, tendo acesso a eventos próximos a ele. Já no menu teremos algumas informações do usuários, locais recentes e a opção de criar um evento. Outro modo de se criar o evento e clicando no botão rápido existente. Para a criação dos eventos será necessário adicionar algumas informações, como o local, o nome, e a localização em que o evento irá ocorrer, e o usuário precisará estar logado no sistema. Este \textit{login} será realizado utilizando uma conta Google, graças a sua \textit{API}. Na imagem 11 consta o diagrama de caso de uso desta funcionalidade. 
+Na segunda etapa será implementado o campo de busca, com ele será possível procurar locais, tendo acesso a eventos próximos a ele. Já no menu teremos algumas informações dos usuários, locais recentes e a opção de criar um evento. Outro modo de se criar o evento e clicando no botão rápido existente. Para a criação dos eventos será necessário adicionar algumas informações, como o local, o nome, e a localização em que o evento irá ocorrer, e o usuário precisará estar logado no sistema. Este \textit{login} será realizado utilizando uma conta Google, graças a sua \textit{API}. Na imagem 12 consta o diagrama de caso de uso desta funcionalidade. 
 
 \begin{figure}[!ht]
 	\centering
@@ -48,7 +48,7 @@ Na segunda etapa será implementado o campo de busca, com ele será possível procu
 	%end{measuredfigure}
 \end{figure}
 
-A ultima etapa será a implementação do mapa, que deverá estar ligado ao sistema de posicionamento do dispositivo. O mapa a ser usado irá sempre acompanhar o usuário, mostrando todos os eventos ao seu redor. Esse mapa será no formato 2D, e irá ocupar a tela inteira. A localização do usuário será captada através de seu GPS, que compartilhará essa informação com a \textit{API} do Google Maps, mostrando assim a sua localização. 
+A última etapa será a implementação do mapa, que deverá estar ligado ao sistema de posicionamento do dispositivo. O mapa a ser usado irá sempre acompanhar o usuário, mostrando todos os eventos ao seu redor. Esse mapa será no formato 2D, e irá ocupar a tela inteira. A localização do usuário será captada através de seu GPS, que compartilhará essa informação com a \textit{API} do Google Maps, mostrando assim a sua localização. 
 
 Quando os eventos disponíveis aparecem no mapa, será possível seleciona-lo. Isso mostrará os dados de quem criou o evento, em que horário ele será realizado, e em que local ou sala ele irá ocorrer. Essas mesmas informações serão necessárias quando o usuário criar o seu evento.
 
@@ -66,7 +66,7 @@ Para o desenvolvimento da aplicação será usado o modelo incremental. Neste model
 	%end{measuredfigure}
 \end{figure}
 
-Na figura 12 é dado um exemplo de como o modelo incremental funciona. No exemplo existem atividades acontecendo de forma simultânea, no caso: especificação, desenvolvimento e validação. Durante as atividades são geradas versões do programa, que acabam sofrendo modificações, e assim são incrementadas para uma versão melhor. Portanto ao fim de cada processo o \textit{software} terá a sua versão melhorada, ate que a sua versão final seja concluída.   
+Na figura 13 é dado um exemplo de como o modelo incremental funciona. No exemplo existem atividades acontecendo de forma simultânea, no caso: especificação, desenvolvimento e validação. Durante as atividades são geradas versões do programa, que acabam sofrendo modificações, e assim são incrementadas para uma versão melhor. Portanto ao fim de cada processo o \textit{software} terá a sua versão melhorada, até que a sua versão final seja concluída.   
 
 \section{Cronograma}
 
@@ -105,4 +105,5 @@ O cronograma compreende o período de fevereiro a dezembro de 2018.
 \end{figure}
 
 \chapter{Conclusão}
-Ao fim do desenvolvimento é esperado que haja um maior engajamento dos estudantes em relação aos eventos que acontecem no ambiente da universidade. Isto é esperado devido ao fato de a aplicação tornar a divulgação dos eventos mais ampla, tornando público o convite para todos que estiverem próximos ao evento. Combinado com o uso do PWA torna a aplicação mais acessível para os usuários, podendo acessa-la por diversos tipos de dispositivos, aumentando assim o alcance de divulgação do evento. 
+Ao fim do desenvolvimento é esperado que haja um maior engajamento dos estudantes em relação aos eventos que acontecem no ambiente da universidade. Isto é esperado devido ao fato de a aplicação tornar a divulgação dos eventos mais ampla, tornando público o convite para todos que estiverem próximos ao evento. Combinado com o uso do PWA torna a aplicação mais acessível para os usuários, podendo acessa-la por diversos tipos de dispositivos, aumentando assim o alcance de divulgação do evento.
+ 
