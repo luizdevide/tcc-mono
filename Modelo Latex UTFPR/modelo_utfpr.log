@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  3 JUL 2018 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.18)  27 OCT 2018 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,12 +672,12 @@ Overfull \hbox (19.39433pt too wide) in paragraph at lines 63--64
  []
 
 [22 <./figuras/incremental.png>]
-<./figuras/cronograma2.png, id=97, 640.64343pt x 353.06906pt>
-File: ./figuras/cronograma2.png Graphic file (type png)
-<use ./figuras/cronograma2.png>
-Package pdftex.def Info: ./figuras/cronograma2.png  used on input line 101.
-(pdftex.def)             Requested size: 413.02122pt x 227.62204pt.
- [23 <./figuras/cronograma2.png>]
+<./figuras/cronograma3.jpg, id=97, 642.90187pt x 356.0803pt>
+File: ./figuras/cronograma3.jpg Graphic file (type jpg)
+<use ./figuras/cronograma3.jpg>
+Package pdftex.def Info: ./figuras/cronograma3.jpg  used on input line 101.
+(pdftex.def)             Requested size: 410.9653pt x 227.62204pt.
+ [23 <./figuras/cronograma3.jpg>]
 Cap\'{\i }tulo 4.
 ) [24
 
@@ -773,8 +773,8 @@ AED: lastpage setting LastPage
 (./modelo_utfpr.aux (./Capitulos/capitulo1.aux) (./Capitulos/capitulo2.aux)
 (./Capitulos/capitulo3.aux)) ) 
 Here is how much of TeX's memory you used:
- 6761 strings out of 492982
- 91149 string characters out of 6136225
+ 6762 strings out of 492982
+ 91153 string characters out of 6136225
  182056 words of memory out of 5000000
  10095 multiletter control sequences out of 15000+600000
  46682 words of font info for 108 fonts, out of 8000000 for 9000
@@ -786,7 +786,7 @@ Here is how much of TeX's memory you used:
 /2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2017/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb><d:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (27 pages, 437315 bytes).
+Output written on modelo_utfpr.pdf (27 pages, 482269 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
